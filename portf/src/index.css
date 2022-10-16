@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter';
+  --white: rgb(252, 252, 252);
+}
+
+.header {
+  background-image: url('../public/clouds1.jpeg');
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 25%;
+}
+
+.introduction > * {
+  padding-bottom: 0.5rem;
+}
+
+.introduction h1 {
+  font-size: 55px;
+}
+
+.icon {
+  padding-right: 0.25rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon:hover {
+  scale: 1.075;
+}
+
+.introduction-image {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.introduction-image img {
+  height: 75vh;
+}
+
+a {
+  color: inherit;
+}
+
+
+
+
+
+
+
+
+.body {
+  background-color: var(--white);
+  height: 100%;
+  padding: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.thumbnail {
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  background-color: rgba(230, 230, 230, 0.5);
+  border-radius: 0.3rem;
+  margin: 0.25rem;
+  overflow: hidden;
+  height: 25rem;
+  width: 25rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.thumbnail:hover {
+  scale: 1.01;
+}
+
+.thumbnail-link {
+  text-decoration: none;
+}
+
+.thumbnail-container {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  margin-bottom: 1rem;
+}

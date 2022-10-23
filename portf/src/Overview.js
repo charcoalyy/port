@@ -1,21 +1,21 @@
 const Overview = ({chall, sol, tools, duration}) => {
     return(
         <section className="overview">
-            <div className="overview-section">
-                <h3>Challenge</h3>
+            <div className="overview-section overview-chall">
+                <h3 className="overview-section-title">Challenge</h3>
                 <p>{chall}</p>
             </div>
-            <div className="overview-section">
-                <h3>Solution</h3>
+            <div className="overview-section overview-sol">
+                <h3 className="overview-section-title">Solution</h3>
                 <p>{sol}</p>
             </div>
-            <div className="overview-section">
+            <div className="overview-section overview-tools-duration">
                 <div>
-                    <h3>Tools</h3>
+                    <h3 className="overview-section-title">Tools</h3>
                     <p>{tools}</p>
                 </div>
                 <div>
-                    <h3>Duration</h3>
+                    <h3 className="overview-section-title">Duration</h3>
                     <p>{duration}</p>
                 </div>
             </div>

@@ -1,4 +1,5 @@
 import { FaLinkedin, FaGithubSquare } from 'react-icons/fa'
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return(
@@ -12,7 +13,9 @@ const Header = () => {
                 </div>
             </section>
             <section className="introduction-image">
-
+                <Link to={"/"}><p>Projects</p></Link>
+                <Link to={"/"}><p>About</p></Link>
+                <Link to={"/"}><p>Resume</p></Link>
             </section>
         </section>
     )

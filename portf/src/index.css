@@ -49,16 +49,56 @@ html {
 .introduction-image {
   height: 100vh;
   display: flex;
-  align-items: center;
-}
-
-.introduction-image img {
-  height: 75vh;
+  flex-direction: column;
+  justify-content: center;
 }
 
 a {
   color: inherit;
 }
+
+
+
+
+
+
+
+
+
+
+/* 
+.navbar {
+  box-sizing: border-box;
+  width: 100%;
+  position: fixed;
+  top: 1rem;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  background: inherit;
+  padding: 2rem;
+}
+
+.navbar:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .75);
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .75);
+  filter: blur(5px);
+  background: inherit;
+}
+
+.navbar-section {
+  display: flex;
+}
+
+.navbar-section > * {
+  text-decoration: none;
+  margin: 0 0.5rem;
+} */
 
 .footer {
   padding: 2rem 8rem;

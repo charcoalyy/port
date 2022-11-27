@@ -5,6 +5,7 @@ import Body from './Body';
 import ScrollTop from './ScrollTop';
 import Footer from './Footer';
 import ScrollTopButton from './ScrollTopButton';
+import Navbar from './Navbar';
 
 function App() {
   return (

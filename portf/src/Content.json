@@ -1,0 +1,50 @@
+{
+    "blank": {
+        "challengeOverview": "",
+        "solutionOverview": "", 
+        "tools": "",
+        "duration": "",
+
+        "problem": "",
+        "goals": "",
+        "solution": "",
+
+        "user-flows": [],
+        "low-fi": [],
+        "design-sys": [],
+        "hi-fi": [],
+        "reflection": ""
+    },
+    "inspiremusic": {
+        "challengeOverview": "With non-essential services closing down during the 2020 Coronavirus Pandemic, finding new students and retaining current ones became a struggle.",
+        "solutionOverview": "To better engage a wider audience, especially one now more habituated to the internet, I designed a new, more cohesive website.", 
+        "tools": "ReactJS, Figma",
+        "duration": "3 weeks",
+
+        "problem": "",
+        "goals": "",
+        "solution": "",
+
+        "user-flows": [],
+        "low-fi": [],
+        "design-sys": [],
+        "hi-fi": [],
+        "reflection": ""
+    },
+    "timely": {
+        "challengeOverview": "Those home to McMaster University are no strangers to the Go Bus lines that wrap around the library near the bus terminal, demanding hours and hours of bleak wait time with no guarantee of being able to get on the next bus.",
+        "solutionOverview": "As part of Hack the North 2022, we built a web application that would allocate seats to remove the need for physical waiting lines, as well as provide data for how many buses would be needed.", 
+        "tools": "ReactJS, Flask, Python",
+        "duration": "36 hours",
+
+        "problem": "",
+        "goals": "",
+        "solution": "",
+
+        "user-flows": [],
+        "low-fi": [],
+        "design-sys": [],
+        "hi-fi": [],
+        "reflection": ""
+    }
+}

@@ -1,8 +1,12 @@
 import { FaLinkedin, FaGithubSquare } from 'react-icons/fa'
 import { Link } from 'react-router-dom';
 
-const Header = () => {
-    return(
+const Header = ({ setWorkNav }) => {
+    const handleWorkNav = () => {
+        setWorkNav(true)
+    }
+
+    return (
         <section className="header">
             <section className="introduction">
                 <h1>Hey, I'm Alina.</h1>
@@ -12,10 +16,22 @@ const Header = () => {
                     <a id="github-link" href="https://github.com/charcoalyy" target="_blank"><FaGithubSquare className="icon" size={30} /></a>
                 </div>
             </section>
-            <section className="introduction-image">
-                <Link to={"/"}><p>Projects</p></Link>
-                <Link to={"/"}><p>About</p></Link>
-                <Link to={"/"}><p>Resume</p></Link>
+            <section className="nav">
+                <Link to={"/"}>
+                    <div className='nav-link'>
+                        <p>About</p>
+                    </div>
+                </Link>
+                <Link to={"/"} onClick={handleWorkNav}>
+                    <div className='nav-link'>
+                        <p>Work</p>
+                    </div>
+                </Link>
+                <Link to={"/"}>
+                    <div className='nav-link'>
+                        <p>Resume</p>
+                    </div>
+                </Link>
             </section>
         </section>
     )

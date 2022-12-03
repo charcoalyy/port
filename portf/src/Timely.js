@@ -1,6 +1,7 @@
 import BackToHome from "./BackToHome";
 import Overview from "./Overview";
 import Subheader from "./Subheader";
+import content from "./Content.json"
 
 const Timely = () => {
     return(
@@ -11,7 +12,7 @@ const Timely = () => {
                 <h1 className="page-title">Time.ly</h1>
                 <h3 className="page-desc">Designing and developing a web application to eliminate public transit waiting lines.</h3>
             </div>
-            <Overview chall="X" sol="X" tools="ReactJS, Flask, Python" duration="36 hours" />
+            <Overview chall={content.timely.challengeOverview} sol={content.timely.solutionOverview} tools={content.timely.tools} duration={content.timely.duration} />
         </section>
     )
 }

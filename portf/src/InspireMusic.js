@@ -1,6 +1,7 @@
 import BackToHome from "./BackToHome";
 import Overview from "./Overview";
 import Subheader from "./Subheader";
+import content from "./Content";
 
 const InspireMusic = () => {
     return(
@@ -11,7 +12,7 @@ const InspireMusic = () => {
                 <h1 className="page-title">Inspire Music Academy Website</h1>
                 <h3 className="page-desc">Designing and developing a new, updated school website using React.</h3>
             </div>
-            <Overview chall="X" sol="X" tools="ReactJS, Figma" duration="3 weeks" />
+            <Overview chall={content.inspiremusic.challengeOverview} sol={content.inspiremusic.solutionOverview} tools={content.inspiremusic.tools} duration={content.inspiremusic.duration} />
         </section>
     )
 }

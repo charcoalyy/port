@@ -16,25 +16,41 @@
         "reflection": ""
     },
     "inspiremusic": {
-        "challengeOverview": "With non-essential services closing down during the 2020 Coronavirus Pandemic, finding new students and retaining current ones became a struggle.",
-        "solutionOverview": "To better engage a wider audience, especially one now more habituated to the internet, I designed a new, more cohesive website.", 
+        "challengeOverview": "Inspire Music Academy is a music school based in Markham, Ontario that provides music lessons based around the RCM curriculum to youth. With non-essential services closing down during the 2020 Coronavirus Pandemic, finding new students and retaining current ones became a struggle.",
+        "solutionOverview": "To better engage a wider audience, especially one now more habituated to the internet than ever before, I designed a new website from ground up to introduce consistency and cohesiveness.", 
         "tools": "ReactJS, Figma",
         "duration": "3 weeks",
 
-        "problem": "",
-        "goals": "",
-        "solution": "",
+        "problem": "How might we help potential students and/or their guardians determine if Inspire Music Academy is a good fit and, if so, book the appropriate lessons?",
+        "goals": "The core of the website was to reflect the school’s unique selling points to distinguish them from competitive, prestige-focused music schools in the same region, coming down to three basic pillars: \nHumble simplicity;\nWell-rounded nature;\nCommunity-based atmosphere",
+        "solution": "The new website included:\nA booking system that integrated Google Calendar\nUI elements consistented across all pages\nUpdated information architecture that complemented the navigation experience\nFront-end built on ReactJS taking advantage of reusable components",
 
         "user-flows": [],
         "low-fi": [],
         "design-sys": [],
-        "hi-fi": [],
-        "reflection": ""
+        "hi-fi": ["Fully functional frontend that presents one simplistic, recognizable image\nClearer communication of the school’s values with increased credibility\nDesign scheme and components that easily translates into the organization’s social media and event campaigns"],
+        "reflection": [["Staying flexible and never being too attached to one design was key for iteration", "Maintaining client communication throughout the project ensured that design choices sourced from their needs, not aesthetics or personal assumptions"], ["Conducting formal user testing to find pain points that went undetected", "Updated mobile design that prioritizes mobile user needs first, rather than attempting to translate desktop elements one-to-one"]]
     },
     "timely": {
         "challengeOverview": "Those home to McMaster University are no strangers to the Go Bus lines that wrap around the library near the bus terminal, demanding hours and hours of bleak wait time with no guarantee of being able to get on the next bus.",
         "solutionOverview": "As part of Hack the North 2022, we built a web application that would allocate seats to remove the need for physical waiting lines, as well as provide data for how many buses would be needed.", 
         "tools": "ReactJS, Flask, Python",
+        "duration": "36 hours",
+
+        "problem": "How might we help students make their GO Bus commutes without the long waiting lines and lack of time accuracy?",
+        "goals": "",
+        "solution": "A web application was most accessible, as it does not require download and can be used from a variety of browsers\nThe web application includes:\nA flexible, simple interface that lets riders pick departure or arrival times from available buses, secure a definitive spot, and pay, as well as cancel or edit if needed, preventing overcapacity for each bus\nNofications that alert users when they need to get to the bus stop\nA data-tracking system that will serve to inform future bus shifts based on expected passengers at given time intervals",
+
+        "user-flows": [],
+        "low-fi": [],
+        "development": ["I developed the product’s frontend using ReactJS, maintaining constant communication with the UX designer throughout to incorporate UI updates, relay technical constraints, and so on.", "With the backend programmar working on an algorithm for seat allocation, my biggest endeavour during the hackathon was learning the basics of Flask within hours of the submission deadline to link the backend to the frontend."],
+        "hi-fi": ["At the end of the 36 hours, we were able to successfully present a demo to the judging team, demonstrating the main functionality of the web application"],
+        "reflection": [["Troll prevention: without a cap on the possibilities of reserving seats, there is no present way to prevent one person from reserving an unreasonable number of seats on multiple buses", "Integration with existing transit options: a refined version of the service could easily be linked to GO Buses and other public transit", "Increased user experience: on the frontend, visual representations of bus capacity and seat allocation would better inform the user of their choices"]]
+    },
+    "tickme": {
+        "challengeOverview": "",
+        "solutionOverview": "",
+        "tools": "Figma, Miro",
         "duration": "36 hours",
 
         "problem": "",

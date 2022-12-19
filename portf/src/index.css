@@ -243,14 +243,28 @@ a {
         grid-template-columns: 2fr 1fr;
       }
 
-      .overview-section-title {
-        font-size: 18px;
+      .overview-section-title, .section-title {
+        font-size: 20px;
         font-weight: 500;
         padding-bottom: 0.25rem;
       }
 
       .overview-section-desc {
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 300;
         color: var(--off-black);
+      }
+
+.content-section {
+  padding: 1rem 10.5rem;
+}
+
+      .section-body {
+        font-size: 14px;
+        font-weight: 400;
+        color: var(--off-black);
+      }
+
+      .section-figure {
+        max-width: 100%;
       }

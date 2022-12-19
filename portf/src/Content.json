@@ -21,7 +21,7 @@
         "tools": "ReactJS, Figma",
         "duration": "3 weeks",
 
-        "problem": "How might we help potential students and/or their guardians determine if Inspire Music Academy is a good fit and, if so, book the appropriate lessons?",
+        "problem": "The website's pain points led to a lack of perceived credibility and frustration finding information for the user, failing to sell the academy's packages.\nHow might we help potential students and/or their guardians determine if Inspire Music Academy is a good fit and, if so, book the appropriate lessons?",
         "goals": "The core of the website was to reflect the school’s unique selling points to distinguish them from competitive, prestige-focused music schools in the same region, coming down to three basic pillars: \nHumble simplicity;\nWell-rounded nature;\nCommunity-based atmosphere",
         "solution": "The new website included:\nA booking system that integrated Google Calendar\nUI elements consistented across all pages\nUpdated information architecture that complemented the navigation experience\nFront-end built on ReactJS taking advantage of reusable components",
 

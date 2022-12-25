@@ -6,30 +6,38 @@ import Infocard from "./Infocard";
 import Image from "./Image";
 import SectionStart from "./SectionStart";
 import Checklist from "./Checklist";
+import NumberedList from "./NumberedList";
 
-const InspireMusic = () => {
-    const cont = content.inspiremusic;
+const TickMe = () => {
+    const cont = content.tickme;
 
     return(
-        <section className="inspire-music">
+        <section className="tickme">
             <Subheader img={cont.thumbnail} />
             <BackToHome/>
 
             <div className="page-intro">
-                <h1 className="page-title">Inspire Music Academy Website</h1>
+                <h1 className="page-title">TickMe</h1>
                 <h3 className="page-desc">{cont.tagline}</h3>
             </div>
 
             <Overview chall={cont.challengeOverview} sol={cont.solutionOverview} tools={cont.tools} duration={cont.duration} />
 
             <div className="content-section">
-                <SectionStart title="Problem" body={cont.problem} />
-                <Image figures={cont.problemFigures} />
+                <SectionStart title="Problem" />
+                <NumberedList items={cont.problem[1]} />
+                <SectionStart body={cont.problem[0]} />
             </div>
-
+            
             <div className="content-section">
                 <SectionStart title="Objectives" body={cont.goals} />
                 <Infocard cardInfo={cont.objectives}/>
+            </div>
+
+            <div className="content-section">
+                <SectionStart title="Solution" body={cont.solution[0]} />
+                <Checklist items={cont.solution[1]} check="yellow-check" />
+                <SectionStart body={cont.solution[2]} />
             </div>
 
             <div className="content-section">
@@ -38,31 +46,28 @@ const InspireMusic = () => {
             </div>
 
             <div className="content-section">
-                <SectionStart title="Preliminary sketches" body={cont.preliminary} />
+                <SectionStart title="Low-fidelity Wireframes" body={cont.preliminary} />
                 <Image figures={cont.lowFi} />
             </div>
 
             <div className="content-section">
-                <SectionStart title="Visual Identity" body={cont.visualIdentity} />
-                <Image figures={cont.designSys} />
-            </div>
-
-            <div className="content-section">
-                <SectionStart title="Development" body={cont.development} />
-                <Image figures={cont.hiFi[0]} />
-                <Checklist title="Achievements" items={cont.hiFi[1]} check="red-check" />
+                <SectionStart title="High-fidelity Prototype" body={cont.hiFi[0]} />
+                <Image figures={cont.hiFi[1]} />
+                <div className="two-column-figures">
+                    <Image figures={cont.hiFi[2]} />
+                </div>
             </div>
 
             <div className="content-section last">
-                <SectionStart title="Outcome" body={cont.reflection[0]} />
+                <SectionStart title="Outcome" body={cont.achievements} />
                 <h4 className="section-subtitle">Takeaways</h4>
-                <Infocard cardInfo={cont.reflection[1]}/>
+                <Infocard cardInfo={cont.reflection[0]}/>
                 <h4 className="section-subtitle">Next Steps</h4>
-                <Infocard cardInfo={cont.reflection[2]}/>
+                <Infocard cardInfo={cont.reflection[1]}/>
             </div>
 
         </section>
     )
 }
 
-export default InspireMusic;
+export default TickMe;

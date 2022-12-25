@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Thumb = ({name, desc, img, link}) => {
+const Thumb = ({name, desc, img, link, tags}) => {
     return(
         <Link to={link} className="thumbnail-link">
             <div className="thumbnail">
@@ -9,6 +9,11 @@ const Thumb = ({name, desc, img, link}) => {
                 </div>
                 <h3>{name}</h3>
                 <p>{desc}</p>
+                <div className="tags">
+                    {tags && tags.map(tag => {
+                        return <p className="tag">{tag}</p>
+                    })}
+                </div>
             </div>
         </Link>
     )

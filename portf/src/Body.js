@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import Header from "./Header";
 import Thumb from "./Thumb";
+import content from "./Content";
 
 const Body = () => {
     const bodyRef = useRef();
@@ -17,8 +18,9 @@ const Body = () => {
         <section className="home">
             <Header workNav={workNav} setWorkNav={setWorkNav} />
             <section className="body" ref={bodyRef}>
-                <Thumb name="Inspire Music Academy" link="/inspire-music" desc="Designing and developing a new, updated school website using React." img="https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=" />
-                <Thumb name="time.ly" link="/timely" desc="Designing and developing a web application to eliminate public transit waiting lines." img="https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=" />
+                <Thumb name="Inspire Music Academy" link="/inspire-music" desc={content.inspiremusic.tagline} img={content.inspiremusic.thumbnail} tags={content.inspiremusic.tags} />
+                <Thumb name="TickMe" link="/tickme" desc={content.tickme.tagline} img={content.tickme.thumbnail} tags={content.tickme.tags} />
+                <Thumb name="time.ly" link="/timely" desc={content.timely.tagline} img={content.timely.thumbnail} tags={content.timely.tags} />
             </section>
         </section>
     )

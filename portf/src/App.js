@@ -5,7 +5,7 @@ import Body from './Body';
 import ScrollTop from './ScrollTop';
 import Footer from './Footer';
 import ScrollTopButton from './ScrollTopButton';
-import Navbar from './Navbar';
+import TickMe from './TickMe';
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
               <Route path="/" element={<Body />}></Route>
               <Route path="/inspire-music" element={<InspireMusic />} />
               <Route path="/timely" element={<Timely />} />
+              <Route path="/tickme" element={<TickMe />} />
             </Routes>
             <Footer/>
             <ScrollTopButton />

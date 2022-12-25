@@ -9,13 +9,14 @@ const Header = ({ setWorkNav }) => {
     return (
         <section className="header">
             <section className="introduction">
-                <h1>Hey, I'm Alina.</h1>
-                <p>Design and frontend enthusiast.</p>
+                <h1>alina.</h1>
+                <p>Full-time design and frontend enthusiast, part-time cloud gazer</p>
                 <div className="icons">
                     <a id="linkedin-link" href="https://www.linkedin.com/in/alina-yzeng/" target="_blank"><FaLinkedin className="icon" size={30} /></a>
                     <a id="github-link" href="https://github.com/charcoalyy" target="_blank"><FaGithubSquare className="icon" size={30} /></a>
                 </div>
             </section>
+            
             <section className="nav">
                 <Link to={"/"}>
                     <div className='nav-link'>

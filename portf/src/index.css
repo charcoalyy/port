@@ -228,7 +228,7 @@ a {
       }
 
 .overview {
-  padding: 4rem 10rem;
+  padding: 4rem 10rem 1rem 10rem;
 }
 
       .overview-section {
@@ -243,10 +243,10 @@ a {
         grid-template-columns: 2fr 1fr;
       }
 
-      .overview-section-title, .section-title {
-        font-size: 20px;
+      .overview-section-title {
+        font-size: 22px;
         font-weight: 500;
-        padding-bottom: 0.25rem;
+        padding-bottom: 0.5rem;
       }
 
       .overview-section-desc {
@@ -259,13 +259,60 @@ a {
   padding: 1rem 10.5rem;
 }
 
+      .section-title {
+        font-size: 22px;
+        font-weight: 600;
+        padding: 1.5rem 0 0.5rem 0;
+      }
+
       .section-body {
         font-size: 14px;
         font-weight: 400;
         color: var(--off-black);
+        margin-bottom: 1.5rem;
       }
 
       .section-figure {
         width: 100%;
         margin: auto;
+      }
+
+.info-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.info-card {
+  width: 42.5%;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-gap: 1rem;
+  padding: 1.5rem;
+  background-color: var(--grey);
+  border-radius: 7.5px;
+  transition: all 0.3s ease-in-out;
+}
+
+      .info-card:hover {
+        background-color:rgba(240, 240, 240, 0.85)
+      }
+
+      .info-card-icon {
+        width: 80%;
+        padding: 0.5rem;
+        opacity: 0.75;
+      }
+
+      .info-card-text-cont {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .info-card-text {
+        padding: 0.5rem 0.5rem 0.5rem 0;
+        font-size: 14px;
+        font-weight: 300;
       }

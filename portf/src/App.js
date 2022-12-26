@@ -6,6 +6,8 @@ import ScrollTop from './ScrollTop';
 import Footer from './Footer';
 import ScrollTopButton from './ScrollTopButton';
 import TickMe from './TickMe';
+import Ecocar from './Ecocar';
+import About from './About';
 
 function App() {
   return (
@@ -14,9 +16,11 @@ function App() {
       <div className="App">
             <Routes>
               <Route path="/" element={<Body />}></Route>
+              <Route path="/about" element={<About />} />
               <Route path="/inspire-music" element={<InspireMusic />} />
               <Route path="/timely" element={<Timely />} />
               <Route path="/tickme" element={<TickMe />} />
+              <Route path="/ecocar" element={<Ecocar />} />
             </Routes>
             <Footer/>
             <ScrollTopButton />

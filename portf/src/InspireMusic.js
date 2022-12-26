@@ -33,12 +33,12 @@ const InspireMusic = () => {
             </div>
 
             <div className="content-section">
-                <SectionStart title="User flow" body={cont.userFlow} />
+                <SectionStart title="User Flow" body={cont.userFlow} />
                 <Image figures={cont.userFlows} />
             </div>
 
             <div className="content-section">
-                <SectionStart title="Preliminary sketches" body={cont.preliminary} />
+                <SectionStart title="Preliminary Sketches" body={cont.preliminary} />
                 <Image figures={cont.lowFi} />
             </div>
 
@@ -49,6 +49,8 @@ const InspireMusic = () => {
 
             <div className="content-section">
                 <SectionStart title="Development" body={cont.development} />
+                <a className="section-body inspiremusic-link" href="https://inspiremusicacademy.netlify.app/" target="_blank">View the full site.</a>
+                <SectionStart space={true} />
                 <Image figures={cont.hiFi[0]} />
                 <Checklist title="Achievements" items={cont.hiFi[1]} check="red-check" />
             </div>

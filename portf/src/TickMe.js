@@ -37,7 +37,7 @@ const TickMe = () => {
             <div className="content-section">
                 <SectionStart title="Solution" body={cont.solution[0]} />
                 <Checklist items={cont.solution[1]} check="yellow-check" />
-                <SectionStart body={cont.solution[2]} />
+                <SectionStart body={cont.solution[2]} space={true} />
             </div>
 
             <div className="content-section">

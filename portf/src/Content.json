@@ -2,6 +2,7 @@
     "blank": {
         "thumbnail": "",
         "tagline": "",
+        "tags": [],
 
         "challengeOverview": "",
         "solutionOverview": "", 
@@ -33,7 +34,6 @@
         "problemFigures": ["inspiremusic-problem-fig1", "inspiremusic-problem-fig2", "inspiremusic-problem-fig3"],
         "goals": "The core of the website was to reflect the school’s unique selling points to distinguish them from competitive, prestige-focused music schools in the same region, coming down to three basic pillars: humble simplicity, a well-rounded nature, and a community-based atmosphere. I prioritized the following key, tangible objectives:",
         "objectives": [["https://cdn-icons-png.flaticon.com/512/149/149852.png", "Have users easily figure out what lessons are available and who the teachers are"], ["https://cdn-icons-png.flaticon.com/512/3268/3268712.png", "Give users an overview of Inspire Music Academy’s distinct highlights and advantages over other options"], ["https://cdn-icons-png.flaticon.com/512/34/34568.png", "Allow users to directly take action on the site by booking a free trial lesson"]],
-        "solution": "The new website included: A booking system that integrated Google Calendar, UI elements consistented across all pages, Updated information architecture that complemented the navigation experience, Front-end built on ReactJS taking advantage of reusable components",
 
         "userFlow": "To facilitate the website design, I mapped out the basic user browsing experience.",
         "userFlows": ["inspiremusic-userflow"],
@@ -53,20 +53,23 @@
         "tagline": "A web application that eliminates public transit waiting lines.",
         "tags": ["product design", "frontend development"],
 
-        "challengeOverview": "Those home to McMaster University are no strangers to the Go Bus lines that wrap around the library near the bus terminal, demanding hours and hours of bleak wait time with no guarantee of being able to get on the next bus.",
+        "challengeOverview": "Those home to McMaster University are no strangers to the GO Bus lines that wrap around the library near the bus terminal, demanding hours and hours of bleak wait time, with no guarantee of being able to get on the next bus.",
         "solutionOverview": "As part of Hack the North 2022, we built a web application that would allocate seats to remove the need for physical waiting lines, as well as provide data for how many buses would be needed.", 
         "tools": "ReactJS, Flask, Python",
         "duration": "36 hours",
 
-        "problem": "How might we help students make their GO Bus commutes without the long waiting lines and lack of time accuracy?",
-        "goals": "",
-        "solution": "A web application was most accessible, as it does not require download and can be used from a variety of browsers—The web application includes: A flexible, simple interface that lets riders pick departure or arrival times from available buses, secure a definitive spot, and pay, as well as cancel or edit if needed, preventing overcapacity for each bus, Notifications that alert users when they need to get to the bus stop, A data-tracking system that will serve to inform future bus shifts based on expected passengers at given time intervals",
+        "problem": [["timely-problem"], "For years and years, GO Bus lines have been notoriously long at universities, presenting especial danger during more extreme weather. How might we help students make their GO Bus commutes without the long waiting lines and lack of time accuracy?"],
+        "goals": "We decided to create a service centred around the following intentions:",
+        "objectives": [["https://cdn-icons-png.flaticon.com/512/3673/3673915.png","Eliminate the surplus of students waiting for each bus / overcapacity issues"], ["https://cdn-icons-png.flaticon.com/512/818/818149.png", "Provide each riders’ bus ride with a definitive timeframe"], ["https://cdn-icons-png.flaticon.com/512/7483/7483255.png", "Encourage public transit use by reducing common complaints"], ["https://cdn-icons-png.flaticon.com/512/46/46640.png", "Increase rider retention, especially among student bodies"]],
+        "solution": ["As they are accessible without download, we developed a web application for GO Bus riders that introduces:", ["An interface that lets riders pick departure or arrival times from available buses, secure a  spot, pay, and cancel or edit if needed", "Nofications alerting users when they need to get to the bus stop by", "A data-tracking system to inform future bus shifts based on expected passengers at given time intervals"]],
 
         "userFlows": [],
-        "lowFi": [],
-        "development": ["I developed the product’s frontend using ReactJS, maintaining constant communication with the UX designer throughout to incorporate UI updates, relay technical constraints, and so on.", "With the backend programmar working on an algorithm for seat allocation, my biggest endeavour during the hackathon was learning the basics of Flask within hours of the submission deadline to link the backend to the frontend."],
-        "hiFi": ["At the end of the 36 hours, we were able to successfully present a demo to the judging team, demonstrating the main functionality of the web application"],
-        "reflection": [["Troll prevention: without a cap on the possibilities of reserving seats, there is no present way to prevent one person from reserving an unreasonable number of seats on multiple buses", "Integration with existing transit options: a refined version of the service could easily be linked to GO Buses and other public transit", "Increased user experience: on the frontend, visual representations of bus capacity and seat allocation would better inform the user of their choices"]]
+        "preliminary": "During our group discussion, the team's UX designer created the following wireframes for me to work off of:",
+        "lowFi": ["timely-wireframes"],
+        "development": "I developed the product’s frontend using ReactJS, maintaining constant communication with the UX designer throughout to incorporate UI updates, relay technical constraints, and so on. With the backend programmar working on an algorithm for seat allocation, my biggest endeavour during the hackathon was learning the basics of Flask within hours of the submission deadline to link the backend to the frontend, all while running on three hours of sleep.",
+        "final": ["", ["timely-product"]],
+        "achievements": "Full stack development for the first time during a hackathon was a challenge, but a highly rewarding one. At the end of the 36 hours, intensely sleep-deprived, we proudly presented a finsihed demo to the judging team demonstrating what our web application accomplished.",
+        "reflection": [[], [["https://cdn-icons-png.flaticon.com/512/5036/5036088.png", "Without a cap on seat reservation, there is no way to prevent someone from purchasing spots in excess", "Troll prevention"], ["https://cdn-icons-png.flaticon.com/512/5405/5405832.png", "A refined version of the service could be linked to GO Buses and other public transit services", "Integration with existing transit"], ["https://cdn-icons-png.flaticon.com/512/9250/9250545.png", "Visual representations of bus capacity and seat allocation could better inform the user of their choices", "Improved user experience"], ["https://cdn-icons-png.flaticon.com/512/1548/1548914.png", "Acquiring real-world GO Bus data would be needed validate the used algorithms", "Real data"]]]
     },
 
     "tickme": {
@@ -88,10 +91,30 @@
         "userFlows": ["tickme-userflow"],
         "preliminary": "Prior to this event, we'd only ever worked on design projects individually, so collaborative design was new. We decided to split up to generate low-fidelity wireframes before regrouping to select elements we liked, at which point some difficulty occurred due to our differing visual styles. The wireframing stage was extremely, extremely iteration-heavy—many ideas were eliminated due to excess complexity.",
         "lowFi": ["tickme-lofi"],
-        "designSys": [],
         "hiFi": ["Our final designs came together in a neutral, friendly colour palette, matching the simplicity of the overall app.", ["tickme-hifi"], ["tickme-design-sys", "tickme-variations"]],
 
         "achievements": "At the end of the 36 hours, via an interactive prototype and a slidedeck, we presented TickMe to a panel of judges, detailing the leading aspects of our design and what it aimed to provide. With the clean, approachable interface and flexible function of TickMe, juggling work-life balance in university was to be much less of a daunting task for entering students. Our team was incredibly proud to have earned 1st place out of over 30 teams for the student app challenge in the designathon!",
         "reflection": [[["https://cdn-icons-png.flaticon.com/512/3372/3372479.png", "Frequent alternation between individual and synchronous work, resulted in a workflow that merged creativity and contribution from each member"], ["https://cdn-icons-png.flaticon.com/512/2491/2491450.png", "Keeping an open mind to others’ perspectives was crucial for overcoming biases and personal assumptions"]], [["https://cdn-icons-png.flaticon.com/512/1085/1085768.png", "Conducting formal user testing to assess our design choices, especially ones we struggled to agree on"], ["https://cdn-icons-png.flaticon.com/512/7382/7382071.png", "Including more versatile options, such as adding notes/URLs to tasks and deadlines"], ["https://cdn-icons-png.flaticon.com/512/831/831327.png", "Developing the mobile app, likely using Flutter, for public use!"]]]
+    },
+
+    "ecocar": {
+        "thumbnail": "https://media.cadillac.com/dld/content/dam/Media/images/US/Vehicles/Cadillac/LYRIQ/2023/Product/Exterior/2023-cadillac-lyriq-511.jpg",
+        "tagline": "A new, modernized website for a new vehicle competition era.",
+        "tags": ["web design", "visual design"],
+
+        "challengeOverview": "With over a hundred members, McMaster EcoCAR is the university’s largest competing engineering team and one of only two Canadian teams in the North American EcoCAR EV Challenge. But among the 8 vehicle engineering teams in the university, McMaster EcoCAR hardly stands out to newcomers looking to join one. As the pandemic led to historically low recruitment and retention rates, a unique online image was needed.",
+        "solutionOverview": "During the start of a new competition season, I completely revamped the team’s website and social media presence with cohesive, team-distinct branding to properly engage potential future members.", 
+        "tools": "Webflow, Figma",
+        "duration": "4 months (ongoing)",
+
+        "problem": "",
+        "goals": "",
+        "solution": "",
+
+        "userFlows": [],
+        "lowFi": [],
+        "designSys": [],
+        "hiFi": [],
+        "reflection": ""
     }
 }

@@ -1,3 +1,3 @@
 # portfolio
 
-a working collection of what i've been up to!
+a working collection of what i've been up to

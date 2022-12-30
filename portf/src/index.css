@@ -541,3 +541,24 @@ a {
         color: var(--dark-grey);
         transition: all 0.3s ease-in-out;
       }
+
+.challenge {
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+      .challenge-num {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 70px;
+        font-weight: 800;
+        color: rgb(240, 240, 240);
+        transition: all 0.3s ease-in-out;
+      }
+
+      .challenge-num:hover {
+        color: rgb(189, 189, 189);
+        cursor: default;
+      }

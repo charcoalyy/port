@@ -7,6 +7,7 @@ import Image from "./Image";
 import SectionStart from "./SectionStart";
 import Checklist from "./Checklist";
 import NumberedList from "./NumberedList";
+import Challenge from "./Challenge";
 
 const TickMe = () => {
     const cont = content.tickme;
@@ -46,8 +47,10 @@ const TickMe = () => {
             </div>
 
             <div className="content-section">
-                <SectionStart title="Low-fidelity Wireframes" body={cont.preliminary} />
+                <SectionStart title="Low-fidelity Wireframes" body={cont.preliminary[0]} />
                 <Image figures={cont.lowFi} />
+                <Challenge num={1} title={"Challenge: Progress Page"} body={cont.preliminary[1]} />
+                <Challenge num={2} title={"Challenge: Drag and Drop"} body={cont.preliminary[2]} />
             </div>
 
             <div className="content-section">

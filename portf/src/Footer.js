@@ -8,7 +8,7 @@ function Footer() {
                     <a id="github-link" href="https://github.com/charcoalyy" target="_blank"><FaGithubSquare className="icon" size={30} /></a>
                     <a id="email-link" href="mailto:alina.yzeng@gmail.com" target="_blank"><FaEnvelopeSquare className="icon" size={30} /></a>
                 </div>
-                <p className="copyright">ⓒ 2022 Alina Zeng</p>
+                <p className="copyright">ⓒ 2023 Alina Zeng</p>
         </div>
     )
 }

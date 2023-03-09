@@ -68,7 +68,7 @@
         "lowFi": ["timely-wireframes"],
         "development": "I developed the product’s frontend using ReactJS, maintaining constant communication with the UX designer throughout to incorporate UI updates, relay technical constraints, and so on. With the backend programmar working on an algorithm for seat allocation, my biggest endeavour during the hackathon was learning the basics of Flask within hours of the submission deadline to link the backend to the frontend, all while running on three hours of sleep.",
         "final": ["", ["timely-product"]],
-        "achievements": "Full stack development for the first time during a hackathon was a challenge, but a highly rewarding one. At the end of the 36 hours, intensely sleep-deprived, we proudly presented a finsihed demo to the judging team demonstrating what our web application accomplished.",
+        "achievements": "Full stack development for the first time during a hackathon was a challenge, but a highly rewarding one. At the end of the 36 hours, intensely sleep-deprived, we proudly presented a finished demo to the judging team demonstrating what our web application accomplished.",
         "reflection": [[], [["https://cdn-icons-png.flaticon.com/512/5036/5036088.png", "Without a cap on seat reservation, there is no way to prevent someone from purchasing spots in excess", "Troll prevention"], ["https://cdn-icons-png.flaticon.com/512/5405/5405832.png", "A refined version of the service could be linked to GO Buses and other public transit services", "Integration with existing transit"], ["https://cdn-icons-png.flaticon.com/512/9250/9250545.png", "Visual representations of bus capacity and seat allocation could better inform the user of their choices", "Improved user experience"], ["https://cdn-icons-png.flaticon.com/512/1548/1548914.png", "Acquiring real-world GO Bus data would be needed validate the used algorithms", "Real data"]]]
     },
 
@@ -116,5 +116,26 @@
         "designSys": [],
         "hiFi": [],
         "reflection": ""
+    },
+
+    "roomE": {
+        "thumbnail": "https://assets.about.me/background/users/d/a/s/dashwoodstudios_1360927725_17.jpg",
+        "tagline": "Two minutes of questions. A year–or more–of the perfect roommates.",
+        "tags": ["UX design", "visual design", "frontend development"],
+
+        "challengeOverview": "The story of friendships being put on the line once friends become roommates is a classic one: it’s no secret that living with someone is very different from being friends with them. However, the hunt for perfect roommates is time-consuming, demanding, and largely relies on trial and error.",
+        "solutionOverview": "As part of DeltaHacks IX, my team and I built a web application that implements the gale-shapely algorithm to produce the most compatible roommate matches.", 
+        "tools": "ReactJS, Figma",
+        "duration": "36 hours",
+
+        "problem": [["roomE-problem"], "How might we reliably help students find their most compatible roommates to live for extended durations?"],
+        "objectives": [["https://cdn-icons-png.flaticon.com/512/9943/9943850.png", "Reduce the cognitive load of the roommate searching process"], ["https://cdn-icons-png.flaticon.com/512/284/284175.png", "Eliminate the need to switch roommates later down the line by removing incompatible choices from the get-go"], ["https://cdn-icons-png.flaticon.com/512/0/248.png", "Provide a few two-way matches for users to simplify communication"], ["https://cdn-icons-png.flaticon.com/512/1/1342.png", "Encourage high commitment and discourage flakiness"]],
+        "solution": ["We developed a web application that runs a questionnaire each year just before peak times to find student housing.", "During the ‘on’ season, students fill out a survey about their lifestyles, habits, and preferences", "The survey closes and the match-making algorithm sifts through all user data to produce the most compatible roommate matches", "Students are notified and may now contact a short list of matches"],
+
+        "userFlows": ["I conducted brief analysis of existing matchmaking services and forms to produce a rough user flow of our application.", ["roomE-userflow"]],
+        "lowFi": ["Working off the user flow, I generated a series of low-fidelity wireframes before presenting them to the rest of the team for feedback and iteration.", ["roome-lofi1", "roome-lofi2", "roome-lofi3", "roome-lofi4"]],
+        "final": ["I developed the project’s frontend interface using ReactJS, incorporating higher-order components and global state management to better manage user data across the platform. I collaborated closely with the two backend developers of our team to relay technical constraints, consolidate data formatting, and verify output from the algorithm.", ["roomE-product"]],
+        "achievements": "After 24 hours of programming, we successfully demoed RoomE to four judges. One of the most rewarding aspects of this experience was being able to use new ReactJS principles and approaches I'd come across just weeks prior. This project was also the first time I'd ever been given full reign of a product's UX design! Although initially pressuring, I loved being able to lead the production of everything the user would touch.",
+        "reflection": [["https://cdn-icons-png.flaticon.com/512/598/598059.png", "Research: user testing and in-depth psychological research would better inform our service design and questionnaire content"], ["https://cdn-icons-png.flaticon.com/512/48/48732.png", "Integration: we aim for a refined iteration of RoomE to be adopted by Ontario Universities through a yearly match-making event"]]
     }
 }

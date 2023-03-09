@@ -8,6 +8,7 @@ import ScrollTopButton from './ScrollTopButton';
 import TickMe from './TickMe';
 import Ecocar from './Ecocar';
 import About from './About';
+import RoomE from './RoomE';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
               <Route path="/inspire-music" element={<InspireMusic />} />
               <Route path="/timely" element={<Timely />} />
               <Route path="/tickme" element={<TickMe />} />
+              <Route path="/roomE" element={<RoomE />} />
               <Route path="/ecocar" element={<Ecocar />} />
             </Routes>
             <Footer/>

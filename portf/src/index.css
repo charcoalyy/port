@@ -26,6 +26,10 @@ a {
   color: rgb(225, 73, 73);
 }
 
+.roomE-link {
+  color: rgba(240,209,158,255);
+}
+
 
 
 
@@ -562,3 +566,4 @@ a {
         color: rgb(189, 189, 189);
         cursor: default;
       }
+      

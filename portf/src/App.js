@@ -1,14 +1,14 @@
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
-import InspireMusic from './InspireMusic';
-import Timely from './Timely';
-import Body from './Body';
-import ScrollTop from './ScrollTop';
-import Footer from './Footer';
-import ScrollTopButton from './ScrollTopButton';
-import TickMe from './TickMe';
-import Ecocar from './Ecocar';
-import About from './About';
-import RoomE from './RoomE';
+import InspireMusic from '@pages-projects/InspireMusic';
+import Timely from '@pages-projects/Timely';
+import Body from '@pages-general/Body';
+import TickMe from '@pages-projects/TickMe';
+import Ecocar from '@pages-projects/Ecocar';
+import About from '@pages-general/About';
+import RoomE from '@pages-projects/RoomE';
+
+
+import { ScrollTop, Footer, ScrollTopButton } from "@bits-general"
 
 function App() {
   return (

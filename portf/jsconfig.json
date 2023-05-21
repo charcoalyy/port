@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./src",
+      "paths": {
+        "@bits-projects": ["bits-projects/index.js"],
+        "@bits-general": ["bits-general/index.js"],
+        "@pages-general/*": ["pages-general/*"],
+        "@pages-projects/*": ["pages-projects/*"],
+        "@figures/*": ["figures/*"],
+        "@constants/*": ["constants/*"]
+      }
+    },
+    "exclude": ["node_modules"]
+  }
+  

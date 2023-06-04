@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import InspireMusic from '@pages-projects/InspireMusic';
 import Timely from '@pages-projects/Timely';
 import Body from '@pages-general/Body';
@@ -6,15 +6,15 @@ import TickMe from '@pages-projects/TickMe';
 import Ecocar from '@pages-projects/Ecocar';
 import About from '@pages-general/About';
 import RoomE from '@pages-projects/RoomE';
-
-
 import { ScrollTop, Footer, ScrollTopButton } from "@bits-general"
+import theme from 'styles/theme'
+import { ThemeProvider } from '@mui/material';
 
 function App() {
   return (
     <Router>
       <ScrollTop />
-      <div className="App">
+      <ThemeProvider theme={theme}>
             <Routes>
               <Route path="/" element={<Body />}></Route>
               <Route path="/about" element={<About />} />
@@ -26,7 +26,7 @@ function App() {
             </Routes>
             <Footer/>
             <ScrollTopButton />
-      </div>
+      </ThemeProvider>
     </Router>
   );
 }

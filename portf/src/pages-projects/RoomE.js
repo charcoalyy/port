@@ -53,7 +53,7 @@ const RoomE = () => {
 
             <div className="content-section">
                 <SectionStart title="Development" body={cont.final[0]} />
-                <a className="section-body roomE-link" href="https://github.com/OmarCodes2/DeltaHacks" target="_blank">View the full code.</a>
+                <a className="section-body roomE-link" href="https://github.com/OmarCodes2/DeltaHacks" target="_blank" rel="noopener noreferrer">View the full code.</a>
                 <Image figures={cont.final[1]} />
             </div>
 

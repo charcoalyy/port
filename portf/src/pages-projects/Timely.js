@@ -27,7 +27,7 @@ const Timely = () => {
             
             <div className="content-section">
                 <SectionStart title="Problem" />
-                <a className="section-body timely-link" href="https://www.reddit.com/r/McMaster/comments/sn65dd/the_bus_line_today/" target="_blank">McMaster GO Bus line from February 2022.</a>
+                <a className="section-body timely-link" href="https://www.reddit.com/r/McMaster/comments/sn65dd/the_bus_line_today/" target="_blank" rel="noopener noreferrer">McMaster GO Bus line from February 2022.</a>
                 <Image figures={cont.problem[0]} />
                 <SectionStart body={cont.problem[1]} space={true} />
             </div>
@@ -50,7 +50,7 @@ const Timely = () => {
 
             <div className="content-section">
                 <SectionStart title="Final Product" body={cont.final[0]} />
-                <a className="section-body timely-link" href="https://github.com/charcoalyy/time.ly" target="_blank">View the full code.</a>
+                <a className="section-body timely-link" href="https://github.com/charcoalyy/time.ly" target="_blank" rel="noopener noreferrer">View the full code.</a>
                 <Image figures={cont.final[1]} />
             </div>
 

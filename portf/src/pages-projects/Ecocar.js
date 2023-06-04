@@ -1,12 +1,4 @@
-// import BackToHome from "../bits-general/movement/BackToHome";
-// import Overview from "../bits-projects/Overview";
-// import Subheader from "../bits-general/static/Subheader";
 import content from "Content.json";
-// import Image from "../bits-projects/Image";
-// import Infocard from "../bits-projects/Infocard";
-// import Checklist from "../bits-projects/Checklist";
-// import SectionStart from "../bits-projects/SectionStart";
-
 import { BackToHome, Subheader } from "@bits-general"
 import { SectionStart, Overview, Checklist, Infocard, Image } from "@bits-projects"
 
@@ -39,7 +31,7 @@ const Ecocar = () => {
 
             <div className="content-section">
                 <SectionStart title="Final Website" body={cont.hiFiBlurb[0]} />
-                <a className="section-body ecocar-link" href="https://www.macecocar.ca/" target="_blank">View the live site.</a>
+                <a className="section-body ecocar-link" href="https://www.macecocar.ca/" target="_blank" rel="noopener noreferrer">View the live site.</a>
                 <SectionStart space={true} />
                 <Image figures={cont.hiFi[0]} />
             </div>

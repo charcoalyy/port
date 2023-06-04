@@ -1,16 +1,28 @@
-import { BackToHome } from "@bits-general"
+import { Stack, Chip, Container, Typography } from "@mui/material"
+import Grid from "@mui/material/Unstable_Grid2"
+import { aboutText, aboutRoles } from "@constants/about"
 
 const About = () => {
-    return(
-        <section className="about">
-            <div className="about-section" id="about-para">
-                <p>First year engineering student at McMaster University planning to specialize in software next fall.</p> 
-                <p>Lover of people-first design, problem-solving, and aesthetics, working to change the world by making our quotidian just a little easier.</p>
-                <p>Currently a software developer @ FYELABS & national technology analyst @ HOSA Canada. Seeking more opportunities to immerse myself in designing and/or developing products.</p>
-                <p id="above-about">In my free time: swimmer, creative writer, artist, anime devotee, and <a href="https://open.spotify.com/playlist/4TzNj3RTeH7S7D8t6FxiNW?si=a56f6789299c40ba" target="_blank">KR&B playlist curator</a>. Message me about Hunter × Hunter <3</p>
-                <BackToHome about={true} />
-            </div>
-        </section>
+    return (
+        <Grid container justifyContent="space-between">
+            <Grid xs={5.5}>
+                {aboutText.map(about => <Typography variant={about.variant}>{about.text}</Typography>)}
+            </Grid>
+            <Grid xs={6} container direction="column" spacing={2}>
+                <Grid>
+                    <Typography variant="caption">Professionally</Typography>
+                    <Grid container direction="row">
+                        {aboutRoles.professional.map(about => <Chip clickable label={about} />)}
+                    </Grid>
+                </Grid>
+                <Grid>
+                    <Typography variant="caption">Leisurely</Typography>
+                    <Grid container direction="row">
+                        {aboutRoles.leisure.map(about => <Chip clickable label={about} />)}
+                    </Grid>
+                </Grid>
+            </Grid>
+        </Grid>
     )
 }
 

@@ -2,13 +2,14 @@ import { useEffect, useMemo, useRef, useState } from "react"
 import { Header, Thumb } from "@bits-general"
 import { Stack, Chip, Container } from "@mui/material"
 import Grid from '@mui/material/Unstable_Grid2'
-import { thumbnails } from "@constants/projectConstants"
-import About from "./About"
+import { designThumbnails, projectThumbnails } from "@constants/projectConstants"
+import About from "../About"
 
-const Body = () => {
+export default () => {
   const bodyRef = useRef()
   const [workNav, setWorkNav] = useState(false)
 
+  // this needs to happen on everything 'back home'
   useEffect(() => {
     if (workNav) {
       bodyRef.current.scrollIntoView()
@@ -16,6 +17,7 @@ const Body = () => {
     }
   }, [workNav])
 
+  // this needs to be remembered each re-render
   const [tab, setTab] = useState("dev")
 
   const displayTab = useMemo(() => {
@@ -25,11 +27,21 @@ const Body = () => {
           <About />
         )
       case "design":
-        return
+        return (
+          <Container>
+            {designThumbnails.map(thumbnail => <Thumb
+              name={thumbnail.name}
+              link={thumbnail.path}
+              desc={thumbnail.desc}
+              img={thumbnail.img}
+              tags={thumbnail.tags}
+            />)}
+          </Container>
+        )
       default:
         return (
           <Container ref={bodyRef}>
-            {thumbnails.map(thumbnail => <Thumb
+            {projectThumbnails.map(thumbnail => <Thumb
               name={thumbnail.name}
               link={thumbnail.path}
               desc={thumbnail.desc}
@@ -62,4 +74,3 @@ const Body = () => {
   )
 }
 
-export default Body;

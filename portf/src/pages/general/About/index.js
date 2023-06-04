@@ -2,7 +2,7 @@ import { Stack, Chip, Container, Typography } from "@mui/material"
 import Grid from "@mui/material/Unstable_Grid2"
 import { aboutText, aboutRoles } from "@constants/about"
 
-const About = () => {
+export default () => {
     return (
         <Grid container justifyContent="space-between">
             <Grid xs={5.5}>
@@ -25,5 +25,3 @@ const About = () => {
         </Grid>
     )
 }
-
-export default About;

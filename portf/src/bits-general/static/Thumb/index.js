@@ -5,24 +5,6 @@ import { Link } from "react-router-dom"
 export default ({ name, desc, img, link, tags }) => {
   return (
     <>
-      {/* <Card sx={{ mb: 4, minHeight: '150px' }}>
-        <Grid container justifyContent="space-between" alignItems="flex-end">
-          <Grid xs={8}>
-            <div className="thefuckisthis">
-              <div className="circle">
-              </div>
-              <div className="text">
-                <Typography variant="h1">{name}</Typography>
-              </div>
-            </div>
-          </Grid>
-          <Grid xs={3}>
-            <Typography variant="body1">{desc}</Typography>
-          </Grid>
-        </Grid>
-
-      </Card> */}
-
       <Link to={link}>
         <div className="item-card">
 

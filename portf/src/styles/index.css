@@ -579,7 +579,7 @@ a {
 
 
 
-
+/* THE ONLY CSS WE WANT TO END UP KEEPING */
 
 .item-card {
   text-decoration: none;
@@ -595,19 +595,6 @@ a {
   transition: all 0.4s ease-in-out;
   border-image: linear-gradient(to right, #000 85%, transparent 85%) 100% 1;
 }
-
-/* .item-card:after {
-  padding: 0;
-  margin: 0;
-  display: block;
-  content: "";
-  width: 50%;
-  height: 1.1px;
-  background-color: white;
-  position: absolute;
-  right: 0;
-  bottom: -1px;
-} */
 
 .item-card:hover {
   opacity: 1;
@@ -644,4 +631,19 @@ a {
   height: 7.5rem;
   border-radius: 100%;
   background-color: rgb(200, 200, 200);
+}
+
+.carousel-nav {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+  border-radius: 100%;
+}
+
+.carousel-nav:hover {
+  background-color: rgb(255, 237, 237);
+}
+
+.carousel-nav.left {
+  margin-right: 0.5rem;
 }

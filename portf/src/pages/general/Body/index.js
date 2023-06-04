@@ -11,6 +11,10 @@ export default () => {
   const { goDown, setGoDown, tab, setTab } = useBody()
 
   useEffect(() => {
+    document.title = 'alina'
+  }, [])
+
+  useEffect(() => {
     if (goDown) {
       bodyRef.current.scrollIntoView({
         behaviour: 'smooth'

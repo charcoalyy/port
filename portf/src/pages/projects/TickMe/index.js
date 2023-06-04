@@ -1,19 +1,12 @@
 import content from "Content.json"
-import { BackToHome, Subheader } from "@bits-general"
 import { SectionStart, Overview, NumberedList, Challenge, Checklist, Infocard, Image } from "@bits-projects"
+import { ProjectLayout } from "layouts"
 
 const TickMe = () => {
     const cont = content.tickme;
 
     return (
-        <section className="tickme">
-            <Subheader img={cont.thumbnail} />
-            <BackToHome />
-
-            <div className="page-intro">
-                <h1 className="page-title">TickMe</h1>
-                <h3 className="page-desc">{cont.tagline}</h3>
-            </div>
+        <ProjectLayout title="TickMe" thumbnail={cont.thumbnail} tagline={cont.tagline}>
 
             <Overview chall={cont.challengeOverview} sol={cont.solutionOverview} tools={cont.tools} duration={cont.duration} />
 
@@ -62,7 +55,7 @@ const TickMe = () => {
                 <Infocard cardInfo={cont.reflection[1]} />
             </div>
 
-        </section>
+        </ProjectLayout>
     )
 }
 

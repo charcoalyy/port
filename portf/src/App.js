@@ -7,6 +7,7 @@ import { Body } from 'pages/general'
 import { Ecocar, RoomE, Timely, InspireMusic, TickMe } from 'pages/projects'
 import { Clothing, Print, Social, Web } from 'pages/design'
 import { BodyContextProvider } from 'context/bodyContext'
+import { useEffect } from 'react'
 
 function App() {
   return (

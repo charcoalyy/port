@@ -1,22 +1,14 @@
-// import BackToHome from "../bits-general/movement/BackToHome";
-// import Overview from "../bits-projects/Overview";
-// import Subheader from "../bits-general/static/Subheader";
-import content from "Content.json";
-// import Infocard from "../bits-projects/Infocard";
-// import Image from "../bits-projects/Image";
-// import SectionStart from "../bits-projects/SectionStart";
-// import Checklist from "../bits-projects/Checklist";
-
+import content from "Content.json"
 import { BackToHome, Subheader } from "@bits-general"
 import { SectionStart, Overview, Checklist, Infocard, Image } from "@bits-projects"
 
 const InspireMusic = () => {
     const cont = content.inspiremusic;
 
-    return(
+    return (
         <section className="inspire-music">
             <Subheader img={cont.thumbnail} />
-            <BackToHome/>
+            <BackToHome />
 
             <div className="page-intro">
                 <h1 className="page-title">Inspire Music Academy Website</h1>
@@ -32,7 +24,7 @@ const InspireMusic = () => {
 
             <div className="content-section">
                 <SectionStart title="Objectives" body={cont.goals} />
-                <Infocard cardInfo={cont.objectives}/>
+                <Infocard cardInfo={cont.objectives} />
             </div>
 
             <div className="content-section">
@@ -61,9 +53,9 @@ const InspireMusic = () => {
             <div className="content-section last">
                 <SectionStart title="Outcome" body={cont.reflection[0]} />
                 <h4 className="section-subtitle">Takeaways</h4>
-                <Infocard cardInfo={cont.reflection[1]}/>
+                <Infocard cardInfo={cont.reflection[1]} />
                 <h4 className="section-subtitle">Next Steps</h4>
-                <Infocard cardInfo={cont.reflection[2]}/>
+                <Infocard cardInfo={cont.reflection[2]} />
             </div>
 
         </section>

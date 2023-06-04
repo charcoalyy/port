@@ -1,4 +1,3 @@
-export { default as Footer } from './static/Footer'
 export { default as Header } from './static/Header'
 export { default as Subheader } from './static/Subheader'
 export { default as Thumb } from './static/Thumb'

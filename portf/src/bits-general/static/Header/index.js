@@ -1,40 +1,16 @@
-import { FaLinkedin, FaGithubSquare, FaEnvelopeSquare } from 'react-icons/fa'
-import { Link } from 'react-router-dom';
+import { Typography } from '@mui/material'
+import { FiChevronDown } from "react-icons/fi"
 
-export default ({ setWorkNav }) => {
-    const handleWorkNav = () => {
-        setWorkNav(true)
-    }
-
-    return (
-        <section className="header">
-            <section className="introduction">
-                <h1>alina.</h1>
-                <p>Full-time design and frontend enthusiast, part-time cloud gazer</p>
-                <div className="icons">
-                    <a id="linkedin-link" href="https://www.linkedin.com/in/alina-yzeng/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="icon" size={30} /></a>
-                    <a id="github-link" href="https://github.com/charcoalyy" target="_blank" rel="noopener noreferrer"><FaGithubSquare className="icon" size={30} /></a>
-                    <a id="email-link" href="mailto:alina.yzeng@gmail.com" target="_blank" rel="noopener noreferrer"><FaEnvelopeSquare className="icon" size={30} /></a>
-                </div>
-            </section>
-            
-            <section className="nav">
-                <Link to={"/about"}>
-                    <div className='nav-link'>
-                        <p>About</p>
-                    </div>
-                </Link>
-                <Link to={"/"} onClick={handleWorkNav}>
-                    <div className='nav-link'>
-                        <p>Work</p>
-                    </div>
-                </Link>
-                <Link to={"/"}>
-                    <div className='nav-link'>
-                        <p>Resume</p>
-                    </div>
-                </Link>
-            </section>
-        </section>
-    )
+export default ({ setGoDown }) => {
+  return (
+    <div className="header">
+      <div className="introduction">
+        <Typography variant="h1" sx={{ color: 'white', textTransform: 'lowercase' }}>alina</Typography>
+        <Typography variant="h3" sx={{ color: 'white' }}>i like pretty things that work.</Typography>
+        <div className="nav-link" onClick={() => setGoDown(true)}>
+          <FiChevronDown />
+        </div>
+      </div>
+    </div>
+  )
 }

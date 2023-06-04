@@ -1,24 +1,23 @@
-import { useEffect, useMemo, useRef, useState } from "react"
+import { useEffect, useMemo, useRef } from "react"
 import { Header, Thumb } from "@bits-general"
 import { Stack, Chip, Container } from "@mui/material"
 import Grid from '@mui/material/Unstable_Grid2'
 import { designThumbnails, projectThumbnails } from "@constants/projectConstants"
-import About from "../About"
+import { About } from "pages/general"
+import useBody from 'context/bodyContext'
 
 export default () => {
   const bodyRef = useRef()
-  const [workNav, setWorkNav] = useState(false)
+  const { goDown, setGoDown, tab, setTab } = useBody()
 
-  // this needs to happen on everything 'back home'
   useEffect(() => {
-    if (workNav) {
-      bodyRef.current.scrollIntoView()
-      setWorkNav(false)
+    if (goDown) {
+      bodyRef.current.scrollIntoView({
+        behaviour: 'smooth'
+      })
+      setGoDown(false)
     }
-  }, [workNav])
-
-  // this needs to be remembered each re-render
-  const [tab, setTab] = useState("dev")
+  }, [goDown, setGoDown])
 
   const displayTab = useMemo(() => {
     switch (tab) {
@@ -29,25 +28,29 @@ export default () => {
       case "design":
         return (
           <Container>
-            {designThumbnails.map(thumbnail => <Thumb
-              name={thumbnail.name}
-              link={thumbnail.path}
-              desc={thumbnail.desc}
-              img={thumbnail.img}
-              tags={thumbnail.tags}
-            />)}
+            {designThumbnails.map(thumbnail =>
+              <Thumb
+                key={thumbnail.name}
+                name={thumbnail.name}
+                link={thumbnail.path}
+                desc={thumbnail.desc}
+                img={thumbnail.img}
+                tags={thumbnail.tags}
+              />)}
           </Container>
         )
       default:
         return (
-          <Container ref={bodyRef}>
-            {projectThumbnails.map(thumbnail => <Thumb
-              name={thumbnail.name}
-              link={thumbnail.path}
-              desc={thumbnail.desc}
-              img={thumbnail.img}
-              tags={thumbnail.tags}
-            />)}
+          <Container>
+            {projectThumbnails.map(thumbnail =>
+              <Thumb
+                key={thumbnail.name}
+                name={thumbnail.name}
+                link={thumbnail.path}
+                desc={thumbnail.desc}
+                img={thumbnail.img}
+                tags={thumbnail.tags}
+              />)}
           </Container>
         )
     }
@@ -55,17 +58,17 @@ export default () => {
 
   return (
     <section className="home">
-      <Header workNav={workNav} setWorkNav={setWorkNav} />
-      <Stack sx={{ width: '75%', mx: 'auto', my: '4rem' }} direction="column" spacing={4}>
+      <Header setGoDown={setGoDown} />
+      <Stack sx={{ width: '75%', mx: 'auto', py: '4rem' }} direction="column" spacing={4} ref={bodyRef}>
         <Grid container spacing={2} sx={{ mb: '2rem' }}>
           <Grid xs={4}>
-            <Chip clickable label="ABOUT" variant="outlined" onClick={() => setTab("about")} />
+            <Chip clickable label="ABOUT" variant="outlined" onClick={() => setTab("about")} sx={{ backgroundColor: tab === "about" && '#FFEDED' }} />
           </Grid>
           <Grid xs={4}>
-            <Chip clickable label="DEVELOPMENT" variant="outlined" onClick={() => setTab("dev")} />
+            <Chip clickable label="PROJECTS" variant="outlined" onClick={() => setTab("dev")} sx={{ backgroundColor: tab === "dev" && '#FFEDED' }} />
           </Grid>
           <Grid xs={4}>
-            <Chip clickable label="DESIGN" variant="outlined" onClick={() => setTab("design")} />
+            <Chip clickable label="DESIGN" variant="outlined" onClick={() => setTab("design")} sx={{ backgroundColor: tab === "design" && '#FFEDED' }} />
           </Grid>
         </Grid>
         {displayTab}

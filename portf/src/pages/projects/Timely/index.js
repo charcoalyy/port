@@ -1,19 +1,11 @@
-// import BackToHome from "../bits-general/movement/BackToHome";
-// import Overview from "../bits-projects/Overview";
-// import Subheader from "../bits-general/static/Subheader";
-import content from "Content.json";
-// import Infocard from "../bits-projects/Infocard";
-// import Image from "../bits-projects/Image";
-// import SectionStart from "../bits-projects/SectionStart";
-// import Checklist from "../bits-projects/Checklist";
-
+import content from "Content.json"
 import { BackToHome, Subheader } from "@bits-general"
 import { SectionStart, Overview, Checklist, Infocard, Image } from "@bits-projects"
 
 const Timely = () => {
     const cont = content.timely;
 
-    return(
+    return (
         <section className="timely">
             <Subheader img={cont.thumbnail} />
             <BackToHome />
@@ -24,7 +16,7 @@ const Timely = () => {
             </div>
 
             <Overview chall={cont.challengeOverview} sol={cont.solutionOverview} tools={cont.tools} duration={cont.duration} />
-            
+
             <div className="content-section">
                 <SectionStart title="Problem" />
                 <a className="section-body timely-link" href="https://www.reddit.com/r/McMaster/comments/sn65dd/the_bus_line_today/" target="_blank" rel="noopener noreferrer">McMaster GO Bus line from February 2022.</a>
@@ -34,7 +26,7 @@ const Timely = () => {
 
             <div className="content-section">
                 <SectionStart title="Objectives" body={cont.goals} />
-                <Infocard cardInfo={cont.objectives}/>
+                <Infocard cardInfo={cont.objectives} />
             </div>
 
             <div className="content-section">
@@ -57,7 +49,7 @@ const Timely = () => {
             <div className="content-section last">
                 <SectionStart title="Outcome" body={cont.achievements} />
                 <h4 className="section-subtitle">Next Steps</h4>
-                <Infocard cardInfo={cont.reflection[1]}/>
+                <Infocard cardInfo={cont.reflection[1]} />
             </div>
 
 

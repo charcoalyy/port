@@ -1,24 +1,14 @@
-// import BackToHome from "../bits-general/movement/BackToHome";
-// import Overview from "../bits-projects/Overview";
-// import Subheader from "../bits-general/static/Subheader";
-import content from "Content.json";
-// import Infocard from "../bits-projects/Infocard";
-// import Image from "../bits-projects/Image";
-// import SectionStart from "../bits-projects/SectionStart";
-// import Checklist from "../bits-projects/Checklist";
-// import NumberedList from "../bits-projects/NumberedList";
-// import Challenge from "../bits-projects/Challenge";
-
+import content from "Content.json"
 import { BackToHome, Subheader } from "@bits-general"
 import { SectionStart, Overview, NumberedList, Challenge, Checklist, Infocard, Image } from "@bits-projects"
 
 const TickMe = () => {
     const cont = content.tickme;
 
-    return(
+    return (
         <section className="tickme">
             <Subheader img={cont.thumbnail} />
-            <BackToHome/>
+            <BackToHome />
 
             <div className="page-intro">
                 <h1 className="page-title">TickMe</h1>
@@ -32,10 +22,10 @@ const TickMe = () => {
                 <NumberedList items={cont.problem[1]} />
                 <SectionStart body={cont.problem[0]} />
             </div>
-            
+
             <div className="content-section">
                 <SectionStart title="Objectives" body={cont.goals} />
-                <Infocard cardInfo={cont.objectives}/>
+                <Infocard cardInfo={cont.objectives} />
             </div>
 
             <div className="content-section">
@@ -67,9 +57,9 @@ const TickMe = () => {
             <div className="content-section last">
                 <SectionStart title="Outcome" body={cont.achievements} />
                 <h4 className="section-subtitle">Takeaways</h4>
-                <Infocard cardInfo={cont.reflection[0]}/>
+                <Infocard cardInfo={cont.reflection[0]} />
                 <h4 className="section-subtitle">Next Steps</h4>
-                <Infocard cardInfo={cont.reflection[1]}/>
+                <Infocard cardInfo={cont.reflection[1]} />
             </div>
 
         </section>

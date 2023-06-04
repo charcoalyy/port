@@ -1,6 +1,6 @@
-import { BackToHome, Subheader } from "@bits-general"
+import { BackToHome } from "@bits-general"
 import { DesignProject } from "@bits-projects"
-import { designContent } from "@constants/design"
+import { designContent } from "@constants/designConstants"
 import { Chip, Box } from "@mui/material"
 
 export default () => {
@@ -13,6 +13,7 @@ export default () => {
       </Box>
       {designContent.clothing.map(project =>
         <DesignProject
+          key={project.title}
           title={project.title}
           desc={project.desc}
           tools={project.tools}

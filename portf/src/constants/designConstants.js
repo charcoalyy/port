@@ -64,7 +64,7 @@ export const designContent = {
       title: "McMaster EcoCAR",
       desc: "a series of posts made for event promotions and member features",
       tools: "figma",
-      images: ["design/social/ecocar1", "design/social/ecocar2", "design/social/ecocar3", "design/social/ecocar4", "design/social/ecocar5", "design/social/ecocar6", "design/social/ecocar7"]
+      images: ["design/social/ecocar1", "design/social/ecocar2", "design/social/ecocar3", "design/social/ecocar4", "design/social/ecocar5", "design/social/ecocar6"]
     },
   ],
 

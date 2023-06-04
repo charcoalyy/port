@@ -9,6 +9,17 @@ export default createTheme({
                     fontFamily: 'Inter'
                 },
                 h1: {
+                    fontSize: '40px',
+                    fontWeight: 700,
+                    textTransform: 'uppercase',
+                    lineHeight: '40px'
+                },
+                body1: {
+                    textTransform: 'lowercase',
+                    fontSize: '12px',
+                    lineHeight: '14px'
+                },
+                h2: {
                     fontSize: '22px',
                     fontWeight: 400,
                     marginBottom: '1rem'
@@ -45,6 +56,8 @@ export default createTheme({
                     width: '100%',
                     color: '#141414',
                     padding: '0 3rem',
+                    cursor: 'pointer',
+                    margin: 0,
                     borderColor: '#141414',
                     border: '0.75px solid',
                     '&&:hover, &:focus': {

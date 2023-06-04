@@ -8,11 +8,11 @@ export const about = [
 export const aboutText = [
     {
         text: "Working to change the world by making our quotidian just a little easier, via combination of people-first design, problem-solving, and aesthetics.",
-        variant: "h1"
+        variant: "h2"
     },
     {
         text: "Seeking opportunities to immerse myself in designing and/or developing products.",
-        variant: "h2"
+        variant: "h3"
     },
 ]
 

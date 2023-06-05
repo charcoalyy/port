@@ -3,141 +3,444 @@
         "thumbnail": "",
         "tagline": "",
         "tags": [],
-
         "challengeOverview": "",
-        "solutionOverview": "", 
+        "solutionOverview": "",
         "tools": "",
         "duration": "",
-
         "problem": "",
         "goals": "",
         "solution": "",
-
         "userFlows": [],
         "lowFi": [],
         "designSys": [],
         "hiFi": [],
         "reflection": ""
     },
-
     "inspiremusic": {
         "thumbnail": "https://i0.wp.com/inspiremusiclesson.com/wp-content/uploads/2015/01/1-25.jpg?w=2000&ssl=1",
+        "mini_thumbnail": "testthumb",
         "tagline": "A fresh, remade website for a local music school.",
-        "tags": ["UX design", "frontend development"],
-        
+        "tags": [
+            "UX design",
+            "frontend development"
+        ],
         "challengeOverview": "Inspire Music Academy is a music school based in Markham, Ontario that provides music lessons based around the RCM curriculum to youth. With non-essential services closing down during the 2020 Coronavirus Pandemic, finding new students and retaining current ones became a struggle.",
-        "solutionOverview": "To better engage a wider audience, especially one now more habituated to the internet than ever before, I designed a new website from ground up to introduce consistency and cohesiveness.", 
+        "solutionOverview": "To better engage a wider audience, especially one now more habituated to the internet than ever before, I designed a new website from ground up to introduce consistency and cohesiveness.",
         "tools": "ReactJS, Figma",
         "duration": "3 weeks",
-
         "problem": "The many pain points of the existing website accumulated to create lack of perceived credibility and frustration finding information, thus failing to sell the academy's packages. How might we help potential students and/or their guardians determine if Inspire Music Academy is a good fit and, if so, book the appropriate lessons?",
-        "problemFigures": ["inspiremusic/problem-fig1", "inspiremusic/problem-fig2", "inspiremusic/problem-fig3"],
+        "problemFigures": [
+            "inspiremusic/problem-fig1",
+            "inspiremusic/problem-fig2",
+            "inspiremusic/problem-fig3"
+        ],
         "goals": "The core of the website was to reflect the school’s unique selling points to distinguish them from competitive, prestige-focused music schools in the same region, coming down to three basic pillars: humble simplicity, a well-rounded nature, and a community-based atmosphere. I prioritized the following key, tangible objectives:",
-        "objectives": [["https://cdn-icons-png.flaticon.com/512/149/149852.png", "Have users easily figure out what lessons are available and who the teachers are"], ["https://cdn-icons-png.flaticon.com/512/3268/3268712.png", "Give users an overview of Inspire Music Academy’s distinct highlights and advantages over other options"], ["https://cdn-icons-png.flaticon.com/512/34/34568.png", "Allow users to directly take action on the site by booking a free trial lesson"]],
-
+        "objectives": [
+            [
+                "https://cdn-icons-png.flaticon.com/512/149/149852.png",
+                "Have users easily figure out what lessons are available and who the teachers are"
+            ],
+            [
+                "https://cdn-icons-png.flaticon.com/512/3268/3268712.png",
+                "Give users an overview of Inspire Music Academy’s distinct highlights and advantages over other options"
+            ],
+            [
+                "https://cdn-icons-png.flaticon.com/512/34/34568.png",
+                "Allow users to directly take action on the site by booking a free trial lesson"
+            ]
+        ],
         "userFlow": "To facilitate the website design, I mapped out the basic user browsing experience.",
-        "userFlows": ["inspiremusic/userflow"],
+        "userFlows": [
+            "inspiremusic/userflow"
+        ],
         "preliminary": "I created quick, rough outlines of the layout for each page. These allowed for quick communication with the school's founders about what would be expected, as well as an easy way for them to pinpoint changes they would like before development.",
-        "lowFi": ["inspiremusic/lofi"],
+        "lowFi": [
+            "inspiremusic/lofi"
+        ],
         "visualIdentity": "The colour palette for the website was taken directly from the school's branding colours, with additional hues for more visual variation where contrast was needed. Clean, sans-serif fonts were used to maintain legibility and simplicity.",
-        "designSys": ["inspiremusic/visual-identity"],
-
+        "designSys": [
+            "inspiremusic/visual-identity"
+        ],
         "development": "The site was developed using ReactJS over approximately two weeks. Seeing as this was my first React website, the process was one of trial and error, of triumph and frustration. During this stage, I took advantage of the utility of reusable components and learned to integrate APIs into web apps. After a handful of 2AM coding sessions, the website—with mobile responsiveness—was complete.",
-        "hiFi": [["inspiremusic/result-fig1", "inspiremusic/result-fig2", "inspiremusic/result-fig3", "inspiremusic/result-fig4"], ["Cohesive frontend that presents one simplistic, recognizable image", "Clearer communication of the school’s values with increased credibility", "Loading speed reduced by 97% compared to the original site", "Intuitive booking system implemented with the Google Calendar API", "Design scheme and components easily translate to social media graphics and event campaigns", "Updated information architecture that complemented the navigation experience"]],
-
-        "reflection": ["For the first website I'd built from start to end, this project was an incredibly rewarding experience of creating something of value for an organization that had provided me with many opportunities over the years!", [["https://cdn-icons-png.flaticon.com/512/2784/2784037.png", "Staying flexible and never being too attached to one design was key for effective iteration"], ["https://cdn-icons-png.flaticon.com/512/3883/3883967.png", "Constant client communication meant design choices sourced from their needs, not aesthetics or personal assumptions"]], [["https://cdn-icons-png.flaticon.com/512/1085/1085768.png", "Conducting formal user testing to find pain points that went undetected"], ["https://cdn-icons-png.flaticon.com/512/21/21520.png", "Updating mobile design to uniquely prioritize mobile user needs, instead of translating desktop elements one-to-one"], ["https://cdn-icons-png.flaticon.com/512/8956/8956057.png", "Building a robust backend, potentially with a native booking system"]]]
+        "hiFi": [
+            [
+                "inspiremusic/result-fig1",
+                "inspiremusic/result-fig2",
+                "inspiremusic/result-fig3",
+                "inspiremusic/result-fig4"
+            ],
+            [
+                "Cohesive frontend that presents one simplistic, recognizable image",
+                "Clearer communication of the school’s values with increased credibility",
+                "Loading speed reduced by 97% compared to the original site",
+                "Intuitive booking system implemented with the Google Calendar API",
+                "Design scheme and components easily translate to social media graphics and event campaigns",
+                "Updated information architecture that complemented the navigation experience"
+            ]
+        ],
+        "reflection": [
+            "For the first website I'd built from start to end, this project was an incredibly rewarding experience of creating something of value for an organization that had provided me with many opportunities over the years!",
+            [
+                [
+                    "https://cdn-icons-png.flaticon.com/512/2784/2784037.png",
+                    "Staying flexible and never being too attached to one design was key for effective iteration"
+                ],
+                [
+                    "https://cdn-icons-png.flaticon.com/512/3883/3883967.png",
+                    "Constant client communication meant design choices sourced from their needs, not aesthetics or personal assumptions"
+                ]
+            ],
+            [
+                [
+                    "https://cdn-icons-png.flaticon.com/512/1085/1085768.png",
+                    "Conducting formal user testing to find pain points that went undetected"
+                ],
+                [
+                    "https://cdn-icons-png.flaticon.com/512/21/21520.png",
+                    "Updating mobile design to uniquely prioritize mobile user needs, instead of translating desktop elements one-to-one"
+                ],
+                [
+                    "https://cdn-icons-png.flaticon.com/512/8956/8956057.png",
+                    "Building a robust backend, potentially with a native booking system"
+                ]
+            ]
+        ]
     },
-    
     "timely": {
         "thumbnail": "https://beta.ctvnews.ca/local/toronto/2020/6/18/1_4989617/_jcr_content/root/responsivegrid/image.coreimg.jpg",
         "tagline": "A web application that eliminates public transit waiting lines.",
-        "tags": ["product design", "frontend development"],
-
+        "tags": [
+            "product design",
+            "frontend development"
+        ],
         "challengeOverview": "Those home to McMaster University are no strangers to the GO Bus lines that wrap around the library near the bus terminal, demanding hours and hours of bleak wait time, with no guarantee of being able to get on the next bus.",
-        "solutionOverview": "As part of Hack the North 2022, we built a web application that would allocate seats to remove the need for physical waiting lines, as well as provide data for how many buses would be needed.", 
+        "solutionOverview": "As part of Hack the North 2022, we built a web application that would allocate seats to remove the need for physical waiting lines, as well as provide data for how many buses would be needed.",
         "tools": "ReactJS, Flask, Python",
         "duration": "36 hours",
-
-        "problem": [["timely/problem"], "For years and years, GO Bus lines have been notoriously long at universities, presenting especial danger during more extreme weather. How might we help students make their GO Bus commutes without the long waiting lines and lack of time accuracy?"],
+        "problem": [
+            [
+                "timely/problem"
+            ],
+            "For years and years, GO Bus lines have been notoriously long at universities, presenting especial danger during more extreme weather. How might we help students make their GO Bus commutes without the long waiting lines and lack of time accuracy?"
+        ],
         "goals": "We decided to create a service centred around the following intentions:",
-        "objectives": [["https://cdn-icons-png.flaticon.com/512/3673/3673915.png","Eliminate the surplus of students waiting for each bus / overcapacity issues"], ["https://cdn-icons-png.flaticon.com/512/818/818149.png", "Provide each riders’ bus ride with a definitive timeframe"], ["https://cdn-icons-png.flaticon.com/512/7483/7483255.png", "Encourage public transit use by reducing common complaints"], ["https://cdn-icons-png.flaticon.com/512/46/46640.png", "Increase rider retention, especially among student bodies"]],
-        "solution": ["As they are accessible without download, we developed a web application for GO Bus riders that introduces:", ["An interface that lets riders pick departure or arrival times from available buses, secure a  spot, pay, and cancel or edit if needed", "Nofications alerting users when they need to get to the bus stop by", "A data-tracking system to inform future bus shifts based on expected passengers at given time intervals"]],
-
+        "objectives": [
+            [
+                "https://cdn-icons-png.flaticon.com/512/3673/3673915.png",
+                "Eliminate the surplus of students waiting for each bus / overcapacity issues"
+            ],
+            [
+                "https://cdn-icons-png.flaticon.com/512/818/818149.png",
+                "Provide each riders’ bus ride with a definitive timeframe"
+            ],
+            [
+                "https://cdn-icons-png.flaticon.com/512/7483/7483255.png",
+                "Encourage public transit use by reducing common complaints"
+            ],
+            [
+                "https://cdn-icons-png.flaticon.com/512/46/46640.png",
+                "Increase rider retention, especially among student bodies"
+            ]
+        ],
+        "solution": [
+            "As they are accessible without download, we developed a web application for GO Bus riders that introduces:",
+            [
+                "An interface that lets riders pick departure or arrival times from available buses, secure a  spot, pay, and cancel or edit if needed",
+                "Nofications alerting users when they need to get to the bus stop by",
+                "A data-tracking system to inform future bus shifts based on expected passengers at given time intervals"
+            ]
+        ],
         "userFlows": [],
         "preliminary": "During our group discussion, the team's UX designer created the following wireframes for me to work off of:",
-        "lowFi": ["timely/wireframes"],
+        "lowFi": [
+            "timely/wireframes"
+        ],
         "development": "I developed the product’s frontend using ReactJS, maintaining constant communication with the UX designer throughout to incorporate UI updates, relay technical constraints, and so on. With the backend programmar working on an algorithm for seat allocation, my biggest endeavour during the hackathon was learning the basics of Flask within hours of the submission deadline to link the backend to the frontend, all while running on three hours of sleep.",
-        "final": ["", ["timely/product"]],
+        "final": [
+            "",
+            [
+                "timely/product"
+            ]
+        ],
         "achievements": "Full stack development for the first time during a hackathon was a challenge, but a highly rewarding one. At the end of the 36 hours, intensely sleep-deprived, we proudly presented a finished demo to the judging team demonstrating what our web application accomplished.",
-        "reflection": [[], [["https://cdn-icons-png.flaticon.com/512/5036/5036088.png", "Without a cap on seat reservation, there is no way to prevent someone from purchasing spots in excess", "Troll prevention"], ["https://cdn-icons-png.flaticon.com/512/5405/5405832.png", "A refined version of the service could be linked to GO Buses and other public transit services", "Integration with existing transit"], ["https://cdn-icons-png.flaticon.com/512/9250/9250545.png", "Visual representations of bus capacity and seat allocation could better inform the user of their choices", "Improved user experience"], ["https://cdn-icons-png.flaticon.com/512/1548/1548914.png", "Acquiring real-world GO Bus data would be needed validate the used algorithms", "Real data"]]]
+        "reflection": [
+            [],
+            [
+                [
+                    "https://cdn-icons-png.flaticon.com/512/5036/5036088.png",
+                    "Without a cap on seat reservation, there is no way to prevent someone from purchasing spots in excess",
+                    "Troll prevention"
+                ],
+                [
+                    "https://cdn-icons-png.flaticon.com/512/5405/5405832.png",
+                    "A refined version of the service could be linked to GO Buses and other public transit services",
+                    "Integration with existing transit"
+                ],
+                [
+                    "https://cdn-icons-png.flaticon.com/512/9250/9250545.png",
+                    "Visual representations of bus capacity and seat allocation could better inform the user of their choices",
+                    "Improved user experience"
+                ],
+                [
+                    "https://cdn-icons-png.flaticon.com/512/1548/1548914.png",
+                    "Acquiring real-world GO Bus data would be needed validate the used algorithms",
+                    "Real data"
+                ]
+            ]
+        ]
     },
-
     "tickme": {
         "thumbnail": "https://drive.google.com/uc?id=1YPy1s5u4epFtsCAmYh1EwHIXa-_tfutO",
         "tagline": "A mobile app that streamlines postsecondary student planning in one place.",
-        "tags": ["UX design"],
-
+        "tags": [
+            "UX design"
+        ],
         "challengeOverview": "When transitioning into post-secondary education, a common point of struggle for students is time management. Jokes about having to pick one of sleeping, having a social life, and working to sacrifice float around endlessly, rooted in the real difficulty of balancing one’s time.",
-        "solutionOverview": "As part of McMaster MDL’s 2022 UI/UX Designathon, my team and I prototyped a task management app based around time-blocking to be used on the go by students, allowing them to visually sort out their time with ease.", 
+        "solutionOverview": "As part of McMaster MDL’s 2022 UI/UX Designathon, my team and I prototyped a task management app based around time-blocking to be used on the go by students, allowing them to visually sort out their time with ease.",
         "tools": "Figma, Miro",
         "duration": "36 hours",
-
-        "problem": ["Being a first year engineering student myself, surrounded by peers who were also scrambling to handle the million responsibilities and commitments in their lives, I recognized that a diverse and customizable tool was needed. So, how might we make the transition from having a pre-structured routine in high school to juggling one’s own time in post-secondary education smoother for students?", ["Shifting to a new physical environment, getting settled into a new lifestyle, and adapting to a heavier workload is overwhelming", "Being surrounded by others who have adapted quicker and perform better, students may feel insecurity or a fear of missing out", "Non-native English speakers experience these struggles amplified, increasing feelings of isolation and mental health concerns"]],
+        "problem": [
+            "Being a first year engineering student myself, surrounded by peers who were also scrambling to handle the million responsibilities and commitments in their lives, I recognized that a diverse and customizable tool was needed. So, how might we make the transition from having a pre-structured routine in high school to juggling one’s own time in post-secondary education smoother for students?",
+            [
+                "Shifting to a new physical environment, getting settled into a new lifestyle, and adapting to a heavier workload is overwhelming",
+                "Being surrounded by others who have adapted quicker and perform better, students may feel insecurity or a fear of missing out",
+                "Non-native English speakers experience these struggles amplified, increasing feelings of isolation and mental health concerns"
+            ]
+        ],
         "goals": "I quickly learned to comfortably use Miro during our discussion and brainstorming. After an hour, we narrowed down the objectives we would approach our solution with:",
-        "objectives": [["https://cdn-icons-png.flaticon.com/512/55/55281.png", "Allow students to allocate time to all life aspects—academics, work, leisure, exercise, and personal care"], ["https://cdn-icons-png.flaticon.com/512/268/268090.png", "Reduce the mental exhaustion associated with scheduling"], ["https://cdn-icons-png.flaticon.com/512/9194/9194959.png", "Be accessible to both domestic and international students"], ["https://cdn-icons-png.flaticon.com/512/483/483610.png", "Be easy to use on-the-go for students in a rush"]],
-        "solution": ["To hit each objective, we designed a mobile app that unifies the student planning process by making it easy to organize and track progression for tasks and deadlines. I led the creation of our brainstorming map of how each component connected to the others, and we defined 5 dominant features:", ["A landing homepage where each functionality is accessible", "A call to action of adding either a deadline or a task", "A calendar to-do list of time-blocked activities and deadlines", "A conventional list view of tasks, organized by category", "A progress page to track the user’s advancement through selected tasks"], "What did our app do different than the hundreds of other productivity apps available? Our thematic basis was integrating the to-do list into the calendar via time-blocking. This approach merges existing mental models of productivity services: it centralizes all organization into one functionality. The time-blocking eliminates vagueness in what actions to take. The highly-visual planning style then provides users with a clear impression of their busyness levels."],
-
+        "objectives": [
+            [
+                "https://cdn-icons-png.flaticon.com/512/55/55281.png",
+                "Allow students to allocate time to all life aspects—academics, work, leisure, exercise, and personal care"
+            ],
+            [
+                "https://cdn-icons-png.flaticon.com/512/268/268090.png",
+                "Reduce the mental exhaustion associated with scheduling"
+            ],
+            [
+                "https://cdn-icons-png.flaticon.com/512/9194/9194959.png",
+                "Be accessible to both domestic and international students"
+            ],
+            [
+                "https://cdn-icons-png.flaticon.com/512/483/483610.png",
+                "Be easy to use on-the-go for students in a rush"
+            ]
+        ],
+        "solution": [
+            "To hit each objective, we designed a mobile app that unifies the student planning process by making it easy to organize and track progression for tasks and deadlines. I led the creation of our brainstorming map of how each component connected to the others, and we defined 5 dominant features:",
+            [
+                "A landing homepage where each functionality is accessible",
+                "A call to action of adding either a deadline or a task",
+                "A calendar to-do list of time-blocked activities and deadlines",
+                "A conventional list view of tasks, organized by category",
+                "A progress page to track the user’s advancement through selected tasks"
+            ],
+            "What did our app do different than the hundreds of other productivity apps available? Our thematic basis was integrating the to-do list into the calendar via time-blocking. This approach merges existing mental models of productivity services: it centralizes all organization into one functionality. The time-blocking eliminates vagueness in what actions to take. The highly-visual planning style then provides users with a clear impression of their busyness levels."
+        ],
         "userFlow": "Owing to the narrow timeframe of the competition, we focused on one user flow, based around the functionality I proposed of adding either a task or deadline. The two were differentiated based on our experience with schoolwork.",
-        "userFlows": ["tickme/userflow"],
-        "preliminary": ["Prior to this event, we'd only ever worked on design projects individually, so collaborative design was new. We decided to split up to generate low-fidelity wireframes before regrouping to select elements we liked. This stage was extremely, extremely, extremely iteration-heavy—many ideas were eliminated due to complexity. I found my strengths in high-level systems thinking and pushing for innovation, and learned from my teammates' strengths of rapid prototyping and visual iteration.", "I and another did not see much value in the feature, as it added cognitive load to the user flow, while our other teammate was more resolute on it. Through discussion, I heard his standpoint and saw the benefit of encouragement-based functionalities that foster introspection, rather than only cut-and-dried actions. We consolidated our thoughts by allowing users to opt into progress-tracking.", "I introduced an unconventional method of entering times through a drag-and-drop blocking system, aiming to make the to-do-calendar model more tangible and prevent overlapping. However, I saw my teammates' perspective of how it cluttered the add-task page, contradicting the objective of being easy for rushed users."],
-        "lowFi": ["tickme/lofi"],
-        "hiFi": ["Our final designs came together in a neutral, friendly colour palette, matching the simplicity of the overall app. We aimed for calls to action to be as accessible as possible for efficient use.", ["tickme/hifi"], ["tickme/design-sys", "tickme/variations"]],
-
+        "userFlows": [
+            "tickme/userflow"
+        ],
+        "preliminary": [
+            "Prior to this event, we'd only ever worked on design projects individually, so collaborative design was new. We decided to split up to generate low-fidelity wireframes before regrouping to select elements we liked. This stage was extremely, extremely, extremely iteration-heavy—many ideas were eliminated due to complexity. I found my strengths in high-level systems thinking and pushing for innovation, and learned from my teammates' strengths of rapid prototyping and visual iteration.",
+            "I and another did not see much value in the feature, as it added cognitive load to the user flow, while our other teammate was more resolute on it. Through discussion, I heard his standpoint and saw the benefit of encouragement-based functionalities that foster introspection, rather than only cut-and-dried actions. We consolidated our thoughts by allowing users to opt into progress-tracking.",
+            "I introduced an unconventional method of entering times through a drag-and-drop blocking system, aiming to make the to-do-calendar model more tangible and prevent overlapping. However, I saw my teammates' perspective of how it cluttered the add-task page, contradicting the objective of being easy for rushed users."
+        ],
+        "lowFi": [
+            "tickme/lofi"
+        ],
+        "hiFi": [
+            "Our final designs came together in a neutral, friendly colour palette, matching the simplicity of the overall app. We aimed for calls to action to be as accessible as possible for efficient use.",
+            [
+                "tickme/hifi"
+            ],
+            [
+                "tickme/design-sys",
+                "tickme/variations"
+            ]
+        ],
         "achievements": "I spearheaded the creation of our slide deck and narrative of our presentation. At the end of the 36 hours, via our interactive prototype and deck, we unveiled TickMe to a judge panel of industry professionals, detailing the pivotal aspects of our design. With the clean, approachable interface and flexible function of TickMe, managing work-life balance in college was to be much less daunting for incoming students. With yells of happiness in a Discord call following the closing ceremonies, our team was incredibly proud to have earned 1st place out of over 30 teams for the student app challenge in the designathon!",
-        "reflection": [[["https://cdn-icons-png.flaticon.com/512/3372/3372479.png", "Frequent alternation between individual and synchronous work, resulted in a workflow that merged creativity and contribution from each member"], ["https://cdn-icons-png.flaticon.com/512/2491/2491450.png", "Keeping an open mind to others’ perspectives was crucial for overcoming biases and personal assumptions"], ["https://cdn-icons-png.flaticon.com/512/70/70132.png", "Considering edge cases to maintain flexibility was imperative for covering a wider user range"]], [["https://cdn-icons-png.flaticon.com/512/1085/1085768.png", "Conducting formal user testing to assess our design choices, especially ones we struggled to agree on"], ["https://cdn-icons-png.flaticon.com/512/7382/7382071.png", "Including more versatile options, such as adding notes/URLs to tasks and deadlines"], ["https://cdn-icons-png.flaticon.com/512/831/831327.png", "Developing the mobile app, likely using Flutter, for public use!"]]]
+        "reflection": [
+            [
+                [
+                    "https://cdn-icons-png.flaticon.com/512/3372/3372479.png",
+                    "Frequent alternation between individual and synchronous work, resulted in a workflow that merged creativity and contribution from each member"
+                ],
+                [
+                    "https://cdn-icons-png.flaticon.com/512/2491/2491450.png",
+                    "Keeping an open mind to others’ perspectives was crucial for overcoming biases and personal assumptions"
+                ],
+                [
+                    "https://cdn-icons-png.flaticon.com/512/70/70132.png",
+                    "Considering edge cases to maintain flexibility was imperative for covering a wider user range"
+                ]
+            ],
+            [
+                [
+                    "https://cdn-icons-png.flaticon.com/512/1085/1085768.png",
+                    "Conducting formal user testing to assess our design choices, especially ones we struggled to agree on"
+                ],
+                [
+                    "https://cdn-icons-png.flaticon.com/512/7382/7382071.png",
+                    "Including more versatile options, such as adding notes/URLs to tasks and deadlines"
+                ],
+                [
+                    "https://cdn-icons-png.flaticon.com/512/831/831327.png",
+                    "Developing the mobile app, likely using Flutter, for public use!"
+                ]
+            ]
+        ]
     },
-
     "ecocar": {
         "thumbnail": "https://media.cadillac.com/dld/content/dam/Media/images/US/Vehicles/Cadillac/LYRIQ/2023/Product/Exterior/2023-cadillac-lyriq-511.jpg",
         "tagline": "A new, modernized image for a new competition era.",
-        "tags": ["web design", "visual design"],
-
+        "tags": [
+            "web design",
+            "visual design"
+        ],
         "challengeOverview": "With over 170 members, McMaster EcoCAR is the university’s largest competing engineering team and one of only two Canadian teams in the North American EcoCAR EV Challenge. But among the university's ten vehicle engineering teams, EcoCAR hardly stands out to newcomers looking to join one. As the pandemic led to historically low recruitment and retention rates, a unique online image was needed.",
-        "solutionOverview": "As the team's sole designer, I completely revamped and rebuilt the team’s website and social media presence with cohesive, team-distinct branding to properly engage community members.", 
+        "solutionOverview": "As the team's sole designer, I completely revamped and rebuilt the team’s website and social media presence with cohesive, team-distinct branding to properly engage community members.",
         "tools": "Webflow, Figma",
         "duration": "9 months",
-
-        "problem": ["I analyzed the existing website to identify all pain points that would impact recruitment:", ["Out-of-date information inaccurately reflected the current team", "Redundant information melded each page together, collectively difficult to parse", "Broken elements created frustration and lack of credibility", "Stock image use created anonymity that failed to leave an impression that would draw new members", "Zero mobile responsiveness was especially deterimental at events like Club Fest, where users are on their phones!"]],
+        "problem": [
+            "I analyzed the existing website to identify all pain points that would impact recruitment:",
+            [
+                "Out-of-date information inaccurately reflected the current team",
+                "Redundant information melded each page together, collectively difficult to parse",
+                "Broken elements created frustration and lack of credibility",
+                "Stock image use created anonymity that failed to leave an impression that would draw new members",
+                "Zero mobile responsiveness was especially deterimental at events like Club Fest, where users are on their phones!"
+            ]
+        ],
         "goals": "Although my role only asked of me to update the website with new information during the 2022-2023 school year, I decided to transform the old McMaster EcoCAR website entirely with only a select few aims:",
-        "objectives": [["https://img.icons8.com/?size=512&id=HTxB4TkHeprB&format=png", "Communicate an image unique to EcoCAR, distinguishing them from other automotive teams at McMaster"], ["https://img.icons8.com/?size=512&id=NHMe3Y41Go6v&format=png", "Allow newcomers to get all information necessary to decide if they want to join via browsing the site alone"]],
-        "solution": ["The resulting updates thus emphasized 5 overarching changes: ", ["Consistent design elements with the university’s colours", "Responsiveness that considers mobile users first", "Decluttered information presentation with usage of sectioned tabs", "Architecture that eliminates redundancy and communicates a narrative", "Team-specific personality with testimonials, facts, biographies"]],
-
+        "objectives": [
+            [
+                "https://img.icons8.com/?size=512&id=HTxB4TkHeprB&format=png",
+                "Communicate an image unique to EcoCAR, distinguishing them from other automotive teams at McMaster"
+            ],
+            [
+                "https://img.icons8.com/?size=512&id=NHMe3Y41Go6v&format=png",
+                "Allow newcomers to get all information necessary to decide if they want to join via browsing the site alone"
+            ]
+        ],
+        "solution": [
+            "The resulting updates thus emphasized 5 overarching changes: ",
+            [
+                "Consistent design elements with the university’s colours",
+                "Responsiveness that considers mobile users first",
+                "Decluttered information presentation with usage of sectioned tabs",
+                "Architecture that eliminates redundancy and communicates a narrative",
+                "Team-specific personality with testimonials, facts, biographies"
+            ]
+        ],
         "userFlows": [],
         "lowFi": [],
-        "hiFiBlurb": ["From left to right, changes were first wireframed on Figma before being implemented on Webflow, the website service that the team used.", "One key priority I had with social media graphics was making sure you could see the team: our faces, our projects, our workplace, our words—it made a world of difference from generic Canva graphics. Graphics were meant to highlight and promote the work we were already producing, not stand alone.", "I was also lucky to have the opportunity to design for print—merch, stickers, banners, cards, and more—to enhance in-person events hosted by McMaster EcoCAR, including a Women in STEM Conference for the City of Hamilton community, as well as a sponsorship night with attendees including  General Motors and esteemed faculty."],
-        "hiFi": [["ecocar/home", "ecocar/team", "ecocar/blog", "ecocar/about"], ["ecocar/graphics"], ["ecocar/physical"]],
-        "achievements": ["With each deliverable produced, McMaster EcoCAR's project manager put more and more trust into leaving me make changes as desired, quoting both the site and Instagram as “the best the [McMaster EcoCAR] team has had in its history”."],
-        "reflection": [["https://cdn-icons-png.flaticon.com/512/598/598059.png", "Communicating realistic time limitations to my managers was important for consistency"], ["https://cdn-icons-png.flaticon.com/512/48/48732.png", "Accessibility and audience always come first and foremost, above visual appeal"]]
+        "hiFiBlurb": [
+            "From left to right, changes were first wireframed on Figma before being implemented on Webflow, the website service that the team used.",
+            "One key priority I had with social media graphics was making sure you could see the team: our faces, our projects, our workplace, our words—it made a world of difference from generic Canva graphics. Graphics were meant to highlight and promote the work we were already producing, not stand alone.",
+            "I was also lucky to have the opportunity to design for print—merch, stickers, banners, cards, and more—to enhance in-person events hosted by McMaster EcoCAR, including a Women in STEM Conference for the City of Hamilton community, as well as a sponsorship night with attendees including  General Motors and esteemed faculty."
+        ],
+        "hiFi": [
+            [
+                "ecocar/home",
+                "ecocar/team",
+                "ecocar/blog",
+                "ecocar/about"
+            ],
+            [
+                "ecocar/graphics"
+            ],
+            [
+                "ecocar/physical"
+            ]
+        ],
+        "achievements": [
+            "With each deliverable produced, McMaster EcoCAR's project manager put more and more trust into leaving me make changes as desired, quoting both the site and Instagram as “the best the [McMaster EcoCAR] team has had in its history”."
+        ],
+        "reflection": [
+            [
+                "https://cdn-icons-png.flaticon.com/512/598/598059.png",
+                "Communicating realistic time limitations to my managers was important for consistency"
+            ],
+            [
+                "https://cdn-icons-png.flaticon.com/512/48/48732.png",
+                "Accessibility and audience always come first and foremost, above visual appeal"
+            ]
+        ]
     },
-
     "roomE": {
         "thumbnail": "https://assets.about.me/background/users/d/a/s/dashwoodstudios_1360927725_17.jpg",
         "tagline": "Two minutes of questions. A year–or more–of the perfect roommates.",
-        "tags": ["UX design", "visual design", "frontend development"],
-
+        "tags": [
+            "UX design",
+            "visual design",
+            "frontend development"
+        ],
         "challengeOverview": "The story of friendships being put on the line once friends become roommates is a classic one: it’s no secret that living with someone is very different from being friends with them. However, the hunt for perfect roommates is time-consuming, demanding, and largely relies on trial and error.",
-        "solutionOverview": "As part of DeltaHacks IX, my team and I built a web application that implements the gale-shapely algorithm to produce the most compatible roommate matches.", 
+        "solutionOverview": "As part of DeltaHacks IX, my team and I built a web application that implements the gale-shapely algorithm to produce the most compatible roommate matches.",
         "tools": "ReactJS, Figma",
         "duration": "36 hours",
-
-        "problem": [["roome/problem"], "How might we reliably help students find their most compatible roommates to live for extended durations?"],
-        "objectives": [["https://cdn-icons-png.flaticon.com/512/9943/9943850.png", "Reduce the cognitive load of the roommate searching process"], ["https://cdn-icons-png.flaticon.com/512/284/284175.png", "Eliminate the need to switch roommates later down the line by removing incompatible choices from the get-go"], ["https://cdn-icons-png.flaticon.com/512/0/248.png", "Provide a few two-way matches for users to simplify communication"], ["https://cdn-icons-png.flaticon.com/512/1/1342.png", "Encourage high commitment and discourage flakiness"]],
-        "solution": ["We developed a web application that runs a questionnaire each year just before peak times to find student housing.", "During the ‘on’ season, students fill out a survey about their lifestyles, habits, and preferences", "The survey closes and the match-making algorithm sifts through all user data to produce the most compatible roommate matches", "Students are notified and may now contact a short list of matches"],
-
-        "userFlows": ["I conducted brief analysis of existing matchmaking services and forms to produce a rough user flow of our application.", ["roome/userflow"]],
-        "lowFi": ["Working off the user flow, I generated a series of low-fidelity wireframes before presenting them to the rest of the team for feedback and iteration.", ["roome/lofi1", "roome/lofi2", "roome/lofi3", "roome/lofi4"]],
-        "final": ["I developed the project’s frontend interface using ReactJS, incorporating higher-order components and global state management to better manage user data across the platform. I collaborated closely with the two backend developers of our team to relay technical constraints, consolidate data formatting, and verify output from the algorithm.", ["roome/product"]],
+        "problem": [
+            [
+                "roome/problem"
+            ],
+            "How might we reliably help students find their most compatible roommates to live for extended durations?"
+        ],
+        "objectives": [
+            [
+                "https://cdn-icons-png.flaticon.com/512/9943/9943850.png",
+                "Reduce the cognitive load of the roommate searching process"
+            ],
+            [
+                "https://cdn-icons-png.flaticon.com/512/284/284175.png",
+                "Eliminate the need to switch roommates later down the line by removing incompatible choices from the get-go"
+            ],
+            [
+                "https://cdn-icons-png.flaticon.com/512/0/248.png",
+                "Provide a few two-way matches for users to simplify communication"
+            ],
+            [
+                "https://cdn-icons-png.flaticon.com/512/1/1342.png",
+                "Encourage high commitment and discourage flakiness"
+            ]
+        ],
+        "solution": [
+            "We developed a web application that runs a questionnaire each year just before peak times to find student housing.",
+            "During the ‘on’ season, students fill out a survey about their lifestyles, habits, and preferences",
+            "The survey closes and the match-making algorithm sifts through all user data to produce the most compatible roommate matches",
+            "Students are notified and may now contact a short list of matches"
+        ],
+        "userFlows": [
+            "I conducted brief analysis of existing matchmaking services and forms to produce a rough user flow of our application.",
+            [
+                "roome/userflow"
+            ]
+        ],
+        "lowFi": [
+            "Working off the user flow, I generated a series of low-fidelity wireframes before presenting them to the rest of the team for feedback and iteration.",
+            [
+                "roome/lofi1",
+                "roome/lofi2",
+                "roome/lofi3",
+                "roome/lofi4"
+            ]
+        ],
+        "final": [
+            "I developed the project’s frontend interface using ReactJS, incorporating higher-order components and global state management to better manage user data across the platform. I collaborated closely with the two backend developers of our team to relay technical constraints, consolidate data formatting, and verify output from the algorithm.",
+            [
+                "roome/product"
+            ]
+        ],
         "achievements": "After 24 hours of programming, we successfully demoed RoomE to four judges. One of the most rewarding aspects of this experience was being able to use new ReactJS principles and approaches I'd come across just weeks prior. This project was also the first time I'd ever been given full reign of a product's UX design! Although initially pressuring, I loved being able to lead the production of everything the user would touch.",
-        "reflection": [["https://cdn-icons-png.flaticon.com/512/598/598059.png", "Research: user testing and in-depth psychological research would better inform our service design and questionnaire content"], ["https://cdn-icons-png.flaticon.com/512/48/48732.png", "Integration: we aim for a refined iteration of RoomE to be adopted by Ontario Universities through a yearly match-making event"]]
+        "reflection": [
+            [
+                "https://cdn-icons-png.flaticon.com/512/598/598059.png",
+                "Research: user testing and in-depth psychological research would better inform our service design and questionnaire content"
+            ],
+            [
+                "https://cdn-icons-png.flaticon.com/512/48/48732.png",
+                "Integration: we aim for a refined iteration of RoomE to be adopted by Ontario Universities through a yearly match-making event"
+            ]
+        ]
     }
 }

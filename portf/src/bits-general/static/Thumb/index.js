@@ -1,19 +1,18 @@
 import { Typography } from "@mui/material"
 import { Link } from "react-router-dom"
 
-export default ({ name, desc, img, link, tags }) => {
+export default ({ name, desc, thumb, link, tags }) => {
   return (
     <Link to={link}>
       <div className="item-card">
         <div className="thefuckisthis">
           <div className="circle">
           </div>
-          <div className="text">
+          <div className="content">
+            <Typography className="text" variant="h1" sx={{ textTransform: 'uppercase' }}>{name}</Typography>
             <div>
-              <Typography variant="h1" sx={{ textTransform: 'uppercase' }}>{name}</Typography>
-            </div>
-            <div>
-              <Typography variant="body1">{desc}</Typography>
+              {thumb && <img className="mini-thumb" src={require('@figures/thumbnails/' + thumb + '.png')}></img>}
+              <Typography className="text" variant="body1">{desc}</Typography>
             </div>
           </div>
         </div>

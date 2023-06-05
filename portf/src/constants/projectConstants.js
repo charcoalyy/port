@@ -6,6 +6,7 @@ export const projectThumbnails = [
         path: "/inspire-music",
         desc: content.inspiremusic.tagline,
         img: content.inspiremusic.thumbnail,
+        thumb: content.inspiremusic.mini_thumbnail,
         tags: content.inspiremusic.tags
     },
     {

@@ -52,8 +52,8 @@ export default () => {
                 name={thumbnail.name}
                 link={thumbnail.path}
                 desc={thumbnail.desc}
-                img={thumbnail.img}
                 tags={thumbnail.tags}
+                thumb={thumbnail.thumb}
               />)}
           </Container>
         )

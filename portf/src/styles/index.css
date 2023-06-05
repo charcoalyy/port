@@ -499,13 +499,19 @@ a {
   width: 100%;
   min-height: 150px;
   margin-bottom: 4rem;
+
   border-bottom: 1px solid rgb(0, 0, 0);
+  border-image: linear-gradient(to right, #000 85%, transparent 85%) 100% 1;
   background-color: white;
   color: rgb(0, 0, 0);
   cursor: pointer;
+
   opacity: 0.3;
   transition: all 0.4s ease-in-out;
-  border-image: linear-gradient(to right, #000 85%, transparent 85%) 100% 1;
+
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
 }
 
 .item-card:hover {
@@ -513,37 +519,68 @@ a {
   border-image: none;
 }
 
-.item-card-grid {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
+.item-card:hover .mini-thumb {
+  opacity: 1;
+  transform: translateY(0);
 }
 
+.item-card:hover .circle {
+  border-radius: 50px;
+  width: 10rem;
+}
+
+/* .item-card-grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+} */
+
 .thefuckisthis {
+  flex: 1;
+  display: block;
   position: relative;
 }
 
 .thefuckisthis>* {
   position: absolute;
+  transition: all 0.4s ease-in-out;
 }
 
-.text {
-  top: 4rem;
+.content {
+  bottom: 0;
   left: 2rem;
   display: grid;
-  grid-template-columns: 2.5fr 1fr;
+  grid-template-columns: 2fr 1fr;
 }
 
-.text>* {
+.content>* {
   display: flex;
   align-items: flex-end;
 }
 
+.text {
+  padding-bottom: 1rem;
+}
+
+.mini-thumb {
+  max-height: 100px;
+  margin-right: 1rem;
+  /* opacity: 0; */
+  transform: translateY(100px);
+  transition: transform 0.4s;
+}
+
 .circle {
-  width: 7.5rem;
-  height: 7.5rem;
+  bottom: 1rem;
+  width: 5rem;
+  height: 5rem;
   border-radius: 100%;
   background-color: rgb(200, 200, 200);
 }
+
+
+
+
+
 
 .carousel-nav {
   cursor: pointer;

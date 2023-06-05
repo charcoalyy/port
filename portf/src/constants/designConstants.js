@@ -8,27 +8,27 @@ export const designContent = {
     },
     {
       title: "0530",
-      desc: "a toast to the 19th birthday of a friend, quickly following the other",
+      desc: "a toast to the 19th birthday of a friend",
       tools: "illustrator, photoshop",
       images: ["design/clothing/richard1", "design/clothing/richard2"]
     },
     {
-      title: "EcoCAR Merch",
-      desc: "a select few designs for team members",
+      title: "McMaster EcoCAR",
+      desc: "merchandise designs for team members of a competitive engineering team",
       tools: "illustrator, photoshop",
       images: ["design/clothing/ecocar1", "design/clothing/ecocar2"]
     },
     {
-      title: "UDP Merch",
-      desc: "a hoodie made for the 40 members of the executive team",
+      title: "UDP",
+      desc: "hoodies for the executive team of UNDEPRESSION, a youth-run organization raising awareness on mental health",
       tools: "inkscape",
       images: ["design/clothing/udp1"]
     }
   ],
   print: [
     {
-      title: "EcoCAR WIS Conference",
-      desc: "an event hosted by McMaster EcoCAR for the City of Hamilton",
+      title: "WIS Conference",
+      desc: "an event hosted by McMaster EcoCAR in Hamilton, Ontario",
       tools: "figma",
       images: ["design/print/ecocar1", "design/print/ecocar2"]
     },
@@ -36,25 +36,25 @@ export const designContent = {
   web: [
     {
       title: "Inspire Music Academy",
-      desc: "a refreshed website for a music school",
+      desc: "a website for a music school based in Markham, Ontario",
       tools: "figma",
       images: ["design/web/inspiremusic1"]
     },
     {
       title: "McMaster EcoCAR",
-      desc: "a refreshed website for a competitive engineering team",
+      desc: "a website for a competitive engineering team for prospective members and sponsors",
       tools: "figma",
       images: ["design/web/ecocar1"]
     },
     {
-      title: "LLIF Healthcare",
-      desc: "a dashboard for a cloud-based medical data platform",
+      title: "LLIF",
+      desc: "the dashboard of a cloud-based data management platform built by a healthcare startup based in Hamilton, Ontario",
       tools: "figma",
       images: ["design/web/llif1"]
     },
     {
       title: "HOSA",
-      desc: "a refreshed website for Canada's largest health science competition",
+      desc: "a website for Canada's largest student health science competition",
       tools: "figma",
       images: ["design/web/hosa1"]
     },
@@ -62,7 +62,7 @@ export const designContent = {
   social: [
     {
       title: "McMaster EcoCAR",
-      desc: "a series of posts made for event promotions and member features",
+      desc: "sample posts made for event promotions, communications campaigns, and member features",
       tools: "figma",
       images: ["design/social/ecocar1", "design/social/ecocar2", "design/social/ecocar3", "design/social/ecocar4", "design/social/ecocar5", "design/social/ecocar6"]
     },

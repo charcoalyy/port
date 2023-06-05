@@ -4,7 +4,7 @@ import { Carousel } from '@bits-general'
 
 export default ({ title, desc, tools, images }) => {
   return (
-    <Grid container sx={{ mb: 10 }}>
+    <Grid container sx={{ mb: 12 }}>
       <Grid xs={4} sx={{ mr: 6 }}>
         <Box sx={{ ml: 20, mb: 2 }}>
           <Typography variant="h1" sx={{ mb: 1 }}>{title}</Typography>

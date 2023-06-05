@@ -18,6 +18,12 @@ export default createTheme({
                     fontSize: '12px',
                     lineHeight: '14px'
                 },
+                body2: {
+                    textTransform: 'uppercase',
+                    fontSize: '14px',
+                    lineHeight: '16px',
+                    fontWeight: 500,
+                },
                 h2: {
                     fontSize: '22px',
                     fontWeight: 400,

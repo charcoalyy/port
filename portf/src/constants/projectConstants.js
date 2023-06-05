@@ -41,11 +41,6 @@ export const projectThumbnails = [
 
 export const designThumbnails = [
     {
-        name: "Print",
-        path: "/print-design",
-        desc: "stickers? cards? patches? no event is complete without a funky looking item to take home with you.",
-    },
-    {
         name: "Clothing",
         path: "/clothing-design",
         desc: "clothes make the man and man makes the clothes.",
@@ -53,11 +48,16 @@ export const designThumbnails = [
     {
         name: "Web",
         path: "/web-design",
-        desc: "ease of use and appeal to the eye come hand in hand.",
+        desc: "ease of use and appeal to the eye come hand in hand; making what the mouse touches gold.",
     },
     {
         name: "Social Media",
         path: "/social-media-design",
         desc: "to stop and catch one of the thousands of eyes scrolling through their feed.",
-    }
+    },
+    {
+        name: "Print",
+        path: "/print-design",
+        desc: "stickers? cards? patches? no event is complete without a funky looking item to take home!!",
+    },
 ]

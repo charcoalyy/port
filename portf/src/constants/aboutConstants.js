@@ -2,20 +2,20 @@ import { FaLinkedin, FaGithubSquare, FaEnvelopeSquare } from 'react-icons/fa'
 
 export const aboutText = [
     {
-        text: "Making our quotidian just a little easier via combination of people-first design, problem-solving, and aesthetics.",
+        text: "Making our quotidian just a little easier via combination of people-first design, code, and aesthetics.",
         variant: "h2"
     },
     {
-        text: "Seeking opportunities to immerse myself in designing and/or developing products.",
+        text: "Seeking opportunities to design and/or develop products. Reach out if it fits the bill ♡",
         variant: "h3"
     },
 ]
 
 export const aboutRoles = {
     professional: [
-        "SE × BME student @ McMaster",
         "SWE intern @ FYELABS",
-        "Tech analyst @ HOSA Canada"
+        "Tech @ HOSA Canada",
+        "SE × BME student @ McMaster",
     ],
     leisure: [
         "Creative writer",

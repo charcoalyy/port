@@ -2,7 +2,9 @@ import { useEffect, useMemo, useRef } from "react"
 import { Header, Thumb } from "@bits-general"
 import { Stack, Chip, Container } from "@mui/material"
 import Grid from '@mui/material/Unstable_Grid2'
-import { designThumbnails, projectThumbnails } from "@constants/projectConstants"
+
+import { projectThumbnails } from "@constants/projectConstants"
+import { designThumbnails } from "@constants/designConstants"
 import { About } from "pages/general"
 import useBody from 'context/bodyContext'
 

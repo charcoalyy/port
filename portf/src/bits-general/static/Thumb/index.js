@@ -12,7 +12,10 @@ export default ({ name, desc, thumb, link, tags }) => {
             <Typography className="text" variant="h1" sx={{ textTransform: 'uppercase' }}>{name}</Typography>
             <div>
               {thumb && <img className="mini-thumb" src={require('@figures/thumbnails/' + thumb + '.png')}></img>}
-              <Typography className="text" variant="body1">{desc}</Typography>
+              <div>
+                <Typography className="text additional" variant="body2" sx={{ fontStyle: 'italic', textTransform: 'uppercase' }}>VIEW WORK ↗</Typography>
+                <Typography className="text" variant="body1">{desc}</Typography>
+              </div>
             </div>
           </div>
         </div>

@@ -10,7 +10,7 @@ export default ({ name, desc, img, link, tags }) => {
           </div>
           <div className="text">
             <div>
-              <Typography variant="h1">{name}</Typography>
+              <Typography variant="h1" sx={{ textTransform: 'uppercase' }}>{name}</Typography>
             </div>
             <div>
               <Typography variant="body1">{desc}</Typography>

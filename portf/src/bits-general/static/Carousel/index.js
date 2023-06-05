@@ -16,10 +16,11 @@ export default ({ images }) => {
   return (
     <>
       <img src={require('@figures/' + images[current] + '.png')} style={{ width: '100%' }}></img>
-      {images.length > 1 && <Grid container xs={12} sx={{ my: 1 }} justifyContent="flex-end" alignItems="flex-end">
-        <BsArrowLeftCircle onClick={() => handleBack()} className="carousel-nav left" />
-        <BsArrowRightCircle onClick={() => handleNext()} className="carousel-nav" />
-      </Grid>}
+      {images.length > 1 &&
+        <Grid container xs={12} sx={{ mt: 1 }} justifyContent="flex-end" alignItems="flex-end">
+          <BsArrowLeftCircle onClick={() => handleBack()} className="carousel-nav left" />
+          <BsArrowRightCircle onClick={() => handleNext()} className="carousel-nav" />
+        </Grid>}
     </>
   )
 }

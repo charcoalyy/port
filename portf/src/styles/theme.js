@@ -11,7 +11,6 @@ export default createTheme({
                 h1: {
                     fontSize: '40px',
                     fontWeight: 700,
-                    textTransform: 'uppercase',
                     lineHeight: '40px'
                 },
                 body1: {

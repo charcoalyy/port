@@ -2,7 +2,7 @@ import content from "content.json"
 
 export const projectThumbnails = [
     {
-        name: "Inspire Music Academy",
+        name: "Inspire Music",
         path: "/inspire-music",
         desc: content.inspiremusic.tagline,
         img: content.inspiremusic.thumbnail,
@@ -14,6 +14,7 @@ export const projectThumbnails = [
         path: "/tick-me",
         desc: content.tickme.tagline,
         img: content.tickme.thumbnail,
+        thumb: content.tickme.mini_thumbnail,
         tags: content.tickme.tags
     },
     {
@@ -21,6 +22,7 @@ export const projectThumbnails = [
         path: "/timely",
         desc: content.timely.tagline,
         img: content.timely.thumbnail,
+        thumb: content.timely.mini_thumbnail,
         tags: content.timely.tags
     },
     {
@@ -28,6 +30,7 @@ export const projectThumbnails = [
         path: "/roomE",
         desc: content.roomE.tagline,
         img: content.roomE.thumbnail,
+        thumb: content.roomE.mini_thumbnail,
         tags: content.roomE.tags
     },
     {
@@ -35,6 +38,7 @@ export const projectThumbnails = [
         path: "/ecocar",
         desc: content.ecocar.tagline,
         img: content.ecocar.thumbnail,
+        thumb: content.ecocar.mini_thumbnail,
         tags: content.ecocar.tags
     }
 ]

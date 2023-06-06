@@ -3,21 +3,25 @@ export const designThumbnails = [
     name: "Clothing",
     path: "/clothing-design",
     desc: "clothes make the man and man makes the clothes.",
+    thumb: "clothing-thumb"
   },
   {
     name: "Web",
     path: "/web-design",
-    desc: "ease of use and appeal to the eye come hand in hand; making what the mouse touches gold.",
+    desc: "trying to make what the mouse touches gold.",
+    thumb: "web-thumb"
   },
   {
     name: "Social Media",
     path: "/social-media-design",
     desc: "to stop and catch one of the thousands of eyes scrolling through their feed.",
+    thumb: "social-thumb"
   },
   {
     name: "Print",
     path: "/print-design",
-    desc: "stickers? cards? patches? no event is complete without a funky looking item to take home!!",
+    desc: "stickers? cards? no event is complete without a funky looking item to take home!!",
+    thumb: "print-thumb"
   },
 ]
 

@@ -42,6 +42,7 @@ export default () => {
                 desc={thumbnail.desc}
                 img={thumbnail.img}
                 tags={thumbnail.tags}
+                thumb={thumbnail.thumb}
               />)}
           </Container>
         )

@@ -18,7 +18,7 @@
     },
     "inspiremusic": {
         "thumbnail": "https://i0.wp.com/inspiremusiclesson.com/wp-content/uploads/2015/01/1-25.jpg?w=2000&ssl=1",
-        "mini_thumbnail": "testthumb",
+        "mini_thumbnail": "inspiremusic-thumb",
         "tagline": "A fresh, remade website for a local music school.",
         "tags": [
             "UX design",
@@ -108,6 +108,7 @@
     },
     "timely": {
         "thumbnail": "https://beta.ctvnews.ca/local/toronto/2020/6/18/1_4989617/_jcr_content/root/responsivegrid/image.coreimg.jpg",
+        "mini_thumbnail": "timely-thumb",
         "tagline": "A web application that eliminates public transit waiting lines.",
         "tags": [
             "product design",
@@ -191,6 +192,7 @@
     },
     "tickme": {
         "thumbnail": "https://drive.google.com/uc?id=1YPy1s5u4epFtsCAmYh1EwHIXa-_tfutO",
+        "mini_thumbnail": "tickme-thumb",
         "tagline": "A mobile app that streamlines postsecondary student planning in one place.",
         "tags": [
             "UX design"
@@ -293,6 +295,7 @@
     },
     "ecocar": {
         "thumbnail": "https://media.cadillac.com/dld/content/dam/Media/images/US/Vehicles/Cadillac/LYRIQ/2023/Product/Exterior/2023-cadillac-lyriq-511.jpg",
+        "mini_thumbnail": "ecocar-thumb",
         "tagline": "A new, modernized image for a new competition era.",
         "tags": [
             "web design",
@@ -370,7 +373,8 @@
     },
     "roomE": {
         "thumbnail": "https://assets.about.me/background/users/d/a/s/dashwoodstudios_1360927725_17.jpg",
-        "tagline": "Two minutes of questions. A year–or more–of the perfect roommates.",
+        "mini_thumbnail": "roome-thumb",
+        "tagline": "2 minutes of questions. 1 year–or more–of perfect roommates.",
         "tags": [
             "UX design",
             "visual design",

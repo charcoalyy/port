@@ -9,7 +9,11 @@ export default ({ name, desc, thumb, link, tags }) => {
           <div className="circle">
           </div>
           <div className="content">
-            <Typography className="text" variant="h1" sx={{ textTransform: 'uppercase' }}>{name}</Typography>
+            <div className="vertical">
+              <Typography className="text" variant="h1" sx={{ textTransform: 'uppercase', pb: 0 }}>{name}</Typography>
+              <Typography className="text" variant="body1">{tags?.join(", ")}</Typography>
+            </div>
+
             <div>
               {thumb && <img className="mini-thumb" src={require('@figures/thumbnails/' + thumb + '.png')}></img>}
               <div>
@@ -17,6 +21,7 @@ export default ({ name, desc, thumb, link, tags }) => {
                 <Typography className="text" variant="body1">{desc}</Typography>
               </div>
             </div>
+
           </div>
         </div>
       </div>

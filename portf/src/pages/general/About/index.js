@@ -5,7 +5,7 @@ import { aboutText, aboutRoles, aboutLinks } from "@constants/aboutConstants"
 export default () => {
   return (
     <Grid container justifyContent="space-between" sx={{ pb: '4rem' }}>
-      <Grid xs={5.5}>
+      <Grid sm={5.5} xs={12} sx={{ mb: { xs: 4 } }}>
         {aboutText.map((about, index) =>
           <Typography
             key={`about-text-${index}`}
@@ -24,7 +24,7 @@ export default () => {
             </a>)}
         </Stack>
       </Grid>
-      <Grid xs={6} container direction="column" spacing={2}>
+      <Grid sm={6} xs={12} container direction="column" spacing={2}>
         <Grid>
           <Typography variant="caption">Professionally</Typography>
           <Grid container direction="row">

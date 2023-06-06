@@ -68,13 +68,13 @@ export default () => {
       <Header setGoDown={setGoDown} />
       <Stack sx={{ width: '75%', mx: 'auto', py: '4rem' }} direction="column" spacing={4} ref={bodyRef}>
         <Grid container spacing={2} sx={{ mb: '2rem' }}>
-          <Grid xs={4}>
+          <Grid sm={4} xs={12}>
             <Chip clickable label="ABOUT" variant="outlined" onClick={() => setTab("about")} sx={{ backgroundColor: tab === "about" && '#FFEDED' }} />
           </Grid>
-          <Grid xs={4}>
+          <Grid sm={4} xs={12}>
             <Chip clickable label="PROJECTS" variant="outlined" onClick={() => setTab("dev")} sx={{ backgroundColor: tab === "dev" && '#FFEDED' }} />
           </Grid>
-          <Grid xs={4}>
+          <Grid sm={4} xs={12}>
             <Chip clickable label="DESIGN" variant="outlined" onClick={() => setTab("design")} sx={{ backgroundColor: tab === "design" && '#FFEDED' }} />
           </Grid>
         </Grid>

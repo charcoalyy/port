@@ -219,6 +219,7 @@ a {
  */
 
 
+/* refactor with MUI */
 .subheader-bg {
   height: 50vh;
   overflow: hidden;
@@ -326,6 +327,20 @@ a {
   grid-template-columns: 1fr 1fr;
 }
 
+@media only screen and (max-width: 680px) {
+  .page-intro {
+    padding: 4rem 6rem 0 6rem;
+    text-align: center;
+  }
+
+  .overview {
+    padding: 4rem 4rem 1rem 4rem;
+  }
+
+  .content-section {
+    padding: 1rem 5rem;
+  }
+}
 
 
 
@@ -485,6 +500,20 @@ a {
   cursor: default;
 }
 
+@media only screen and (max-width: 680px) {
+
+  .info-card,
+  .checklist-items {
+    width: 100%;
+  }
+
+  .numbered-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
 
 
 
@@ -549,7 +578,7 @@ a {
   bottom: 0;
   left: 2rem;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1.75fr 1fr;
 }
 
 .content>* {
@@ -595,6 +624,23 @@ a {
   background-color: rgb(226, 226, 226);
 }
 
+@media only screen and (max-width: 900px) {
+  .item-card {
+    min-height: 200px;
+  }
+
+  .content {
+    bottom: 0;
+    left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mini-thumb {
+    max-height: 60px;
+    margin-right: 0.5rem;
+  }
+}
 
 
 

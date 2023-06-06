@@ -14,7 +14,7 @@ export default ({ title, category }) => {
     <>
       <BackToHome />
       <Grid container xs={10.95} sx={{ mb: 8 }}>
-        <Chip sx={{ ml: 20, mt: -3.5, textTransform: 'uppercase' }} label={title} variant="outlined" />
+        <Chip sx={{ ml: { sm: 20, xs: 12 }, mt: -3.5, textTransform: 'uppercase' }} label={title} variant="outlined" />
       </Grid>
       {designContent[category].map(project =>
         <DesignProject

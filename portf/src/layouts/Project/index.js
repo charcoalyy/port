@@ -7,7 +7,7 @@ export default ({ children, title, thumbnail, tagline }) => {
   }, [])
 
   return (
-    <section className="inspire-music">
+    <section>
       <Subheader img={thumbnail} />
       <BackToHome />
 

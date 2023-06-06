@@ -27,7 +27,7 @@ const Ecocar = () => {
         <Image figures={cont.hiFi[0]} />
       </div>
 
-      <div className="content-section">
+      {/* <div className="content-section">
         <SectionStart title="Physical Branding" body={cont.hiFiBlurb[2]} />
         <Image figures={cont.hiFi[2]} />
       </div>
@@ -35,7 +35,7 @@ const Ecocar = () => {
       <div className="content-section">
         <SectionStart title="Social Media" body={cont.hiFiBlurb[1]} />
         <Image figures={cont.hiFi[1]} />
-      </div>
+      </div> */}
 
       <div className="content-section last">
         <SectionStart title="Outcome" body={cont.achievements[0]} />

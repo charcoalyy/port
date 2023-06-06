@@ -1,4 +1,4 @@
-import content from "content.json"
+import content from "constants/content.json"
 import { ProjectLayout } from "layouts"
 import { SectionStart, Overview, Checklist, Infocard, Image } from "@bits-projects"
 

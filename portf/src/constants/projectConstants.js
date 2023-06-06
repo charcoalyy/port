@@ -1,4 +1,4 @@
-import content from "content.json"
+import content from "constants/content.json"
 
 export const projectThumbnails = [
     {

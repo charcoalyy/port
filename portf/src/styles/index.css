@@ -53,13 +53,20 @@ a {
   align-items: center;
 }
 
+.header-image {
+  max-height: 200px;
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+}
+
 .introduction {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-bottom: 4rem;
+  padding-bottom: 4.5rem;
+  cursor: pointer;
 }
 
 .icon {

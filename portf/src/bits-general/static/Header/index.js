@@ -6,7 +6,7 @@ export default ({ setGoDown }) => {
       <div className="introduction" onClick={() => setGoDown(true)}>
         <img src={require('figures/scwibbly.gif')} alt="scribbly head" className='header-image' />
         <Typography variant="h1" sx={{ color: 'white', textTransform: 'lowercase' }}>alina</Typography>
-        <a href="https://alinazeng.onrender.com/" style={{color: 'white'}}> this website is out of date! click here to go to my latest one</a>
+        <a href="https://alinazeng.onrender.com/" style={{color: 'white'}}> this website is out of date! click here to check out my latest development work, or scroll down to see some old case studies!</a>
       </div>
     </div>
   )
